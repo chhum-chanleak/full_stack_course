@@ -1,6 +1,7 @@
 # #lx0h
 
 # Generate and store two passwords in Google password manager.
+
 # 1. -> Google chrome
 # 2. -> Click "..." button
 # 3. -> Passwords and Autofill
@@ -22,7 +23,6 @@
 # │   ├── child_folderAA   
 # │   └── child_folderAB
 # ├── child_folderB
-
 
 # Note*:  Its "Root" is at the top.
 
@@ -233,6 +233,9 @@
 
 # Answer / What happens:
 # You move into the app directory using a relative path.
+
+# 1. What does mkdir stands for?
+# 2. Why do we use it?
 
 # Exercises: mkdir
 
