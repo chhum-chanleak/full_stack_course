@@ -210,3 +210,17 @@
 # Common real-world use:
 
 # Organizing work by domain or client
+
+# 8. Cursor movement (no selection)
+
+# Action	Shortcut
+# Move left (character)	←
+# Move right (character)	→
+# Move up (line)	↑
+# Move down (line)	↓
+# Move one word left	Ctrl + ←
+# Move one word right	Ctrl + →
+# Move to line start	Home
+# Move to line end	End
+# Move to document start	Ctrl + Home
+# Move to document end	Ctrl + End
