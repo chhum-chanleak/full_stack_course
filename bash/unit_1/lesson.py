@@ -135,3 +135,78 @@
 # What it does:
 
 # Moves you to a directory using its full (absolute) path, starting from /.
+
+# 7. mkdir
+
+# a. mkdir stands for "make directory"
+
+# b. We use it to create directory/folders.
+
+# Example 1: Create a single directory
+
+# mkdir projects
+
+# Result:
+
+# A folder named projects is created in the current directory
+
+# When to use:
+
+# Starting a new workspace
+
+# Organizing files
+
+# Example 2: Create multiple directories at once
+# mkdir frontend backend docs
+
+# Result:
+
+# Three folders created:
+
+# frontend
+
+# backend
+
+# docs
+
+# Why this is useful:
+
+# Faster setup
+
+# Common in project initialization
+
+# Example 3: Create nested directories (parent + child)
+# mkdir -p src/components
+
+
+# What -p means:
+
+# p = parents
+
+# Creates missing parent directories automatically
+
+# Result:
+
+# src/ is created (if it doesn’t exist)
+
+# components/ is created inside src/
+
+# ❌ Without -p, this would fail if src didn’t exist.
+
+# Example 4: Create directories using a path
+
+# mkdir ~/projects/web-design
+
+# Result:
+
+# Creates:
+
+# projects/
+
+# web-design/ inside it
+
+# Location: home directory (~)
+
+# Common real-world use:
+
+# Organizing work by domain or client
