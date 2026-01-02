@@ -140,7 +140,7 @@
 
 # a. mkdir stands for "make directory"
 
-# b. We use it to create directory/folders.
+# b. We use it to create directories/folders.
 
 # Example 1: Create a single directory
 
@@ -213,7 +213,8 @@
 
 # 8. Cursor movement (no selection)
 
-# Action	Shortcut
+# For Windows OS
+
 # Move left (character)	←
 # Move right (character)	→
 # Move up (line)	↑
