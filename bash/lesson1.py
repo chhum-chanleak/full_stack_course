@@ -78,6 +78,7 @@
 # You want more information about files
 
 # Example 3: Show hidden files
+
 # ls -a
 
 # What it does:
