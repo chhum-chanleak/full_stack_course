@@ -98,6 +98,7 @@
 # cat part2.txt >> main.txt
 
 # Combines files
+
 # Keeps existing content in main.txt
 
 # *Important Tips
@@ -157,7 +158,9 @@
 # Task: Add “Second Line” to file1.txt without removing existing content.
 
 # cat >> file1.txt
+
 # Second Line
+
 # Ctrl + D
 
 # Result:
@@ -184,3 +187,123 @@
 # > → “wipe and write”
 
 # >> → “keep what’s there, add this at the end”
+
+# 4. less
+# i. less lets you read text one screen at a time and move around easily.
+
+# Example 1: View a large file
+
+# less file.txt
+
+# Why this is useful:
+
+# Safe (read-only)
+
+# Handles very large files
+
+# Scroll up and down freely
+
+# Example 2: Open a file at a specific line
+
+# less +50 file.txt
+
+# What this does:
+
+# Opens file.txt
+
+# Jumps directly to line 50
+
+# Very useful when:
+
+# Someone says “check line 200”
+
+# Debugging long files
+
+# Example 3: Search inside a file
+
+# less file.txt
+
+# Inside less:
+
+# Press /
+
+# Type a word (e.g. error)
+
+# Press Enter
+
+# Navigation:
+
+# n → next match
+
+# N → previous match
+
+# Example 4: Reading help pages
+
+# man ls
+
+# Important:
+
+# Help pages open inside less
+
+# Same keys work (Space, /, q)
+
+# Knowing less means you know how to read Linux documentation.
+
+# 5. echo
+# i. echo prints text (or variables) to the terminal.
+
+# Basic syntax:
+
+# echo [options] [text]
+
+# Example 1: Print plain text
+
+# echo Hello, world!
+
+# Output:
+
+# Hello, world!
+
+# This is the simplest use: printing a message.
+
+# Example 2: Print multiple words
+
+# echo This is Bash echo command
+
+# Output:
+
+# This is Bash echo command
+
+# Everything after echo is printed as-is, separated by spaces.
+
+# Example 3: Print a variable
+
+# name="Alex"
+
+# echo $name
+
+# Output:
+
+# Alex
+
+# echo is commonly used to display variable values.
+
+# $name means “replace this with the value of name”.
+
+# Example 4: Print without a newline (-n option)
+
+# echo -n "Loading..."
+
+# Output:
+
+# Loading...
+
+# Normally echo adds a newline at the end.
+
+# -n tells Bash not to move to the next line.
+
+# Quick mental model
+
+# Think of echo as:
+
+# “Say this out loud in the terminal.”
