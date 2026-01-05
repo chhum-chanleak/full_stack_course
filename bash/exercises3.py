@@ -1,6 +1,6 @@
-# # 1. mv
-# # i. What does "mv" stand for?
-# # ii. Why do we use it?
+# 1. mv
+# i. What does "mv" stand for?
+# ii. Why do we use it?
 
 # a.
 # Task:
