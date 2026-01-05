@@ -17,7 +17,7 @@
 # Create a file named notes.md inside a directory called projects.
 
 # (Assume the directory already exists.)
-
+# *bookmark
 # 2. rm
 # i. What does "rm" command stands for?
 # ii. Why do we use it?
