@@ -15,18 +15,3 @@
 
 # d.
 # Store the current date and time in a variable NOW and print it.
-
-# 2. Basic argument variables
-# i. What are arguments variables?
-
-# a.
-# Write a script that prints the first three arguments on separate lines.
-
-# b.
-# Print the script name and how many arguments were passed.
-
-# c.
-# Print both arguments, where the first one may contain spaces.
-
-# d.
-# Create a function that takes one argument and greets the user.
