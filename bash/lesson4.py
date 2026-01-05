@@ -93,3 +93,64 @@
 # HOME=/home/alice
 # my_name=Alice
 # ...
+
+# 3. pipe "|"
+# i. We use pipe "|" to send the output of one command as input to another
+
+# Symbol: |
+
+# Think of it as a conveyor belt for data
+
+# Syntax:
+
+# command1 | command2
+
+# command1 produces output
+
+# command2 processes that output
+
+# Example 1 — List files and count them
+
+# ls | wc -l
+
+# ls → lists files in current directory
+
+# wc -l → counts lines
+
+# Pipe passes the file list from ls to wc -l
+
+# Output = number of files
+
+# Example 2 — Filter files with grep
+
+# ls -l | grep ".sh"
+
+# ls -l → lists files with details
+
+# grep ".sh" → shows only files ending with .sh
+
+# Pipe passes the full file list to grep
+
+# Example 3 — Sort and show top 3 largest files
+
+# du -h * | sort -h | tail -n 3
+
+# du -h * → shows sizes of files/directories
+
+# sort -h → sorts human-readable sizes (e.g., 1K, 5M)
+
+# tail -n 3 → shows last 3 lines (largest)
+
+# Pipe chains multiple commands in one flow.
+
+# Example 4 — Count processes matching “bash”
+
+# ps aux | grep bash | wc -l
+
+# ps aux → lists all running processes
+
+# grep bash → filters processes with “bash”
+
+# wc -l → counts how many matched
+
+# Output = number of bash processes running
