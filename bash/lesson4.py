@@ -8,7 +8,6 @@
 # NAME=Alice  # ✅ correct
 # NAME = Alice  # ❌ wrong
 
-
 # Reference variables with $:
 
 # echo $NAME
@@ -79,7 +78,6 @@
 # $(( ... )) tells Bash: this is arithmetic
 
 # 2. Basic argument variables
-
 # Inside a script or function, Bash provides these:
 
 # Variable	Meaning
