@@ -58,6 +58,7 @@
 # Create small files
 
 # Basic Syntax
+
 # cat [options] file1 file2 ...
 
 # Example 1: View a file
@@ -128,7 +129,9 @@
 # Task: Create file1.txt and write “Hello World”.
 
 # cat > file1.txt
+
 # Hello World
+
 # Ctrl + D
 
 # Result:
@@ -144,7 +147,9 @@
 # Task: Replace content of file1.txt with “New Content”.
 
 # cat > file1.txt
+
 # New Content
+
 # Ctrl + D
 
 # Result:
@@ -166,6 +171,7 @@
 # Result:
 
 # New Content
+
 # Second Line
 
 # Original content remains; new content added at the bottom.
