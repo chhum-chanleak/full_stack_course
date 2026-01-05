@@ -77,86 +77,19 @@
 
 # $(( ... )) tells Bash: this is arithmetic
 
-# 2. Basic argument variables
-# Inside a script or function, Bash provides these:
+# 2. set
+#. We use "set" to view declared variables.
 
-# Variable	Meaning
-# $1	First argument
-# $2	Second argument
-# $3	Third argument
-# $#	Number of arguments
-# $0	Script name
+# Declare a variable
+# my_name="Alice"
 
-# Example 1: Reading arguments in a script
+# Check all declared variables
 
-# Script: args.sh
-# echo "First argument: $1"
-# echo "Second argument: $2"
+# set
 
-# Run:
-# ./args.sh apple banana
+# output:
 
-# Output:
-# First argument: apple
-# Second argument: banana
-
-# Example 2: Counting arguments
-# Script:
-# echo "You passed $# arguments"
-
-# Run:
-# ./args.sh one two three
-
-# Output:
-# You passed 3 arguments
-
-# Example 3: Arguments with spaces (quotes matter)
-# Script:
-# echo "First argument: $1"
-# echo "Second argument: $2"
-
-# Run:
-# ./args.sh "hello world" bash
-
-# Output:
-# First argument: hello world
-# Second argument: bash
-
-
-# Quotes keep words together as one argument.
-
-# Example 4: Arguments in a function
-# say_hi() {
-#   echo "Hi $1"
-# }
-
-# say_hi Alice
-# say_hi Bob
-
-# Output:
-# Hi Alice
-# Hi Bob
-
-# Inside a function, $1 refers to the function’s argument, not the script’s.
-
-# Key takeaways
-
-# Arguments are positional: order matters
-
-# $1, $2, $3 access them
-
-# $# tells how many
-
-# Scripts and functions use arguments the same way
-
-# Tiny self-check
-
-# If you run:
-
-# ./test.sh "one two" three
-
-# What is $1?
-
-# What is $2?
-
-# (Answer it mentally — that’s how you lock it in.)
+# BASH=/bin/bash
+# HOME=/home/alice
+# my_name=Alice
+# ...
