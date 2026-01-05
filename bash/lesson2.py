@@ -41,7 +41,7 @@
 
 # ls -l existing.log
 
-# 2. 
+# 2. rm
 # i. "rm" stands for remove.
 # ii. We use it to remove non-empty folders/directories.
 
@@ -86,7 +86,7 @@
 
 # Interactive (asks before each deletion)
 
-# 3. 
+# 3. rmdir
 # i. "rmdir" stands for "remove directory".
 # ii. We use it to remove empty directories/folders.
 
@@ -131,7 +131,7 @@
 
 # This is a safety feature, not a bug
 
-# 4. 
+# 4. cp
 # i. "cp" stands for "copy".
 # ii. We use it to copy files and directories.
 
@@ -155,6 +155,7 @@
 # The directory must already exist
 
 # Example 3: Copy multiple files into a directory
+
 # cp a.txt b.txt c.txt archive/
 
 # Use case
