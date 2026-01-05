@@ -1,7 +1,7 @@
 # 1. mv
 # i. "mv" stands for "move".
 # ii. We use "mv" to :
-#   1. "move" files or directories to a different location.
+#   1. "move" files or directories to a different location/directory.
 #   2. "rename" files or directories.
 
 # Example 1: Rename a file
@@ -18,7 +18,6 @@
 
 # mv file.txt docs/
 
-
 # File keeps the same name
 # docs/ must already exist
 
@@ -28,8 +27,8 @@
 
 # mv project project_backup
 
-
 # Works for directories too
+
 # Directory contents move automatically
 
 # Example 4: Move multiple files into one directory
@@ -39,6 +38,7 @@
 # mv a.txt b.txt c.txt archive/
 
 # Last argument must be a directory
+
 # Common real-world use
 
 # 2. cat
