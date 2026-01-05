@@ -20,9 +20,9 @@
 
 # Note*:  Its "Root" is at the top.
 
-# 4. 
-# a. pwd stands for "print working directory"
-# b. We use it to show which folder/directory we are currently in.
+# 4. pwd
+# i. pwd stands for "print working directory"
+# ii. We use it to show which folder/directory we are currently in.
 
 # Examples:
 
@@ -45,9 +45,9 @@
 # cd ~/projects/my-app/src
 # pwd -> /home/user/projects/my-app/src
 
-# 5.
-# a. ls stands for "list".
-# b. The ls command shows files and folders in the current directory.
+# 5. ls
+# i. ls stands for "list".
+# ii. The ls command shows files and folders in the current directory.
 
 # Example 1: Basic listing
 # ls
@@ -99,10 +99,8 @@
 # Most commonly used form in real work.
 
 # 6. cd
-
-# a. cd stands for "change directory"
-
-# b. We use it to move up and down the directory/folder tree.
+# i. cd stands for "change directory"
+# ii. We use it to move up and down the directory/folder tree.
 
 # Example 1: Move into a directory
 # cd Documents
@@ -138,10 +136,8 @@
 # Moves you to a directory using its full (absolute) path, starting from /.
 
 # 7. mkdir
-
-# a. mkdir stands for "make directory"
-
-# b. We use it to create directories/folders.
+# i. mkdir stands for "make directory"
+# ii. We use it to create directories/folders.
 
 # Example 1: Create a single directory
 
@@ -177,8 +173,8 @@
 # Common in project initialization
 
 # Example 3: Create nested directories (parent + child)
-# mkdir -p src/components
 
+# mkdir -p src/components
 
 # What -p means:
 
