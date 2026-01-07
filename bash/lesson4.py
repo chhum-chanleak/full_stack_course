@@ -78,7 +78,7 @@
 # $(( ... )) tells Bash: this is arithmetic
 
 # 2. set
-#. We use "set" to view declared variables.
+#. We use "set" to view default and declared variables.
 
 # Declare a variable
 # my_name="Alice"
@@ -94,8 +94,63 @@
 # my_name=Alice
 # ...
 
-# 3. pipe "|"
+# 3. wc
+# i. "wc" stands for "word count".
+# ii. We use "wc" to count lines, words, and bytes of files.
+
+# 4. pipe "|"
 # i. We use pipe "|" to send the output of one command as input to another
+
+# Example 1 — Count lines in a file
+
+# echo -e "apple\nbanana\ncherry" > fruits.txt
+
+# wc -l fruits.txt
+
+# Step by step:
+
+# wc -l → counts lines
+
+# fruits.txt has 3 lines → output: 3 fruits.txt
+
+# Example 2 — Count words
+# echo "apple banana cherry" > fruits.txt
+# wc -w fruits.txt
+
+
+# Step by step:
+
+# wc -w → counts words
+
+# 3 words → output: 3 fruits.txt
+
+# Example 3 — Count characters
+# echo "apple" | wc -c
+
+
+# Step by step:
+
+# echo "apple" → outputs apple plus a newline character
+
+# wc -c → counts characters including newline
+
+# Output: 6
+
+# (5 letters + 1 newline)
+
+# Example 4 — Using wc with a pipe
+# echo -e "cat\ndog\napple\nbanana" | wc -l
+
+
+# Step by step:
+
+# echo -e → prints 4 words on separate lines
+
+# | wc -l → counts lines coming from the pipe
+
+# Output: 4
+
+# This is very useful when you want to count filtered output, e.g., after grep.
 
 # Symbol: |
 
@@ -131,26 +186,32 @@
 
 # Pipe passes the full file list to grep
 
-# Example 3 — Sort and show top 3 largest files
+# Example 3 — Filter words containing “a”
 
-# du -h * | sort -h | tail -n 3
+# echo -e "cat\ndog\napple\nbanana" | grep "a"
 
-# du -h * → shows sizes of files/directories
+# Step by step:
 
-# sort -h → sorts human-readable sizes (e.g., 1K, 5M)
+# echo -e "cat\ndog\napple\nbanana" → prints 4 words, each on a new line
 
-# tail -n 3 → shows last 3 lines (largest)
+# | grep a → keeps only lines containing "a"
 
-# Pipe chains multiple commands in one flow.
+# Output:
 
-# Example 4 — Count processes matching “bash”
+# cat
+# apple
+# banana
 
-# ps aux | grep bash | wc -l
+# Example 4 — Filter lines from a file using cat
 
-# ps aux → lists all running processes
+# cat fruits.txt | grep "apple"
 
-# grep bash → filters processes with “bash”
+# Step by step:
 
-# wc -l → counts how many matched
+# cat fruits.txt → prints all lines in the file
 
-# Output = number of bash processes running
+# | grep "apple" → only shows lines containing “apple”
+
+# Output: whatever lines in fruits.txt have “apple”
+
+# Note: cat is optional here — you can also do grep apple fruits.txt — but this shows how pipes work.
