@@ -15,3 +15,32 @@
 
 # d.
 # Store the current date and time in a variable NOW and print it.
+
+# # 2. What does "set" do?
+
+# a.
+# Task: Use "set" alone and the result.
+
+# b.
+# Task: Use "set" with "|" and "grep" to find a declared variable.
+
+# 3. wc
+# i. What does "wc" stand for?
+# ii. Why do we use "wc"?
+
+# 4. Pipe "|"
+# i. Why do we use pipe?
+
+# a.
+# Task: Count how many files are in your current directory using ls and a pipe.
+
+# b.
+# Task: List files with details and show only the ones ending with .sh.
+
+# c.
+# Task: Print these words and only show the ones that contain the letter a.
+
+# echo -e "cat\ndog\napple\nbanana" | grep "a"
+
+# d.
+# Task: Show only lines containing “apple” from fruits.txt.
