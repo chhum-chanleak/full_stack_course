@@ -19,7 +19,7 @@
 # # 2. What does "set" do?
 
 # a.
-# Task: Use "set" alone and the result.
+# Task: Use "set" alone and see the result.
 
 # b.
 # Task: Use "set" with "|" and "grep" to find a declared variable.
