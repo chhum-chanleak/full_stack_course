@@ -96,12 +96,15 @@
 
 # 3. wc
 # i. "wc" stands for "word count".
-# ii. We use "wc" to count lines, words, and bytes of files.
+# ii. We use "wc" to count lines, words, and characters of files.
 
-# 4. pipe "|"
-# i. We use pipe "|" to send the output of one command as input to another
+# Example 1 - Count lines, words, characters and show file name.
 
-# Example 1 — Count lines in a file
+# echo "Hello, world\!" > greeting.txt
+
+# wc greeting.txt
+
+# Example 2 — Count lines in a file
 
 # echo -e "apple\nbanana\ncherry" > fruits.txt
 
@@ -113,10 +116,11 @@
 
 # fruits.txt has 3 lines → output: 3 fruits.txt
 
-# Example 2 — Count words
-# echo "apple banana cherry" > fruits.txt
-# wc -w fruits.txt
+# Example 3 — Count words
 
+# echo "apple banana cherry" > fruits.txt
+
+# wc -w fruits.txt
 
 # Step by step:
 
@@ -124,9 +128,9 @@
 
 # 3 words → output: 3 fruits.txt
 
-# Example 3 — Count characters
-# echo "apple" | wc -c
+# Example 4 — Count characters
 
+# echo "apple" | wc -c
 
 # Step by step:
 
@@ -138,19 +142,8 @@
 
 # (5 letters + 1 newline)
 
-# Example 4 — Using wc with a pipe
-# echo -e "cat\ndog\napple\nbanana" | wc -l
-
-
-# Step by step:
-
-# echo -e → prints 4 words on separate lines
-
-# | wc -l → counts lines coming from the pipe
-
-# Output: 4
-
-# This is very useful when you want to count filtered output, e.g., after grep.
+# 4. pipe "|"
+# i. We use pipe "|" to send the output of one command as input to another
 
 # Symbol: |
 
@@ -215,3 +208,80 @@
 # Output: whatever lines in fruits.txt have “apple”
 
 # Note: cat is optional here — you can also do grep apple fruits.txt — but this shows how pipes work.
+
+# 5. grep
+# i. "grep" stands for "Global Regular Expression Print"
+# ii. "grep" searches for lines that match a pattern.
+
+# Syntax:
+
+# grep [options] PATTERN file
+
+# It prints entire lines that contain the pattern.
+
+# Example 1 — Search for a word in a file
+
+# printf "apple\nbanana\ncherry\n" > fruits.txt
+
+# grep "banana" fruits.txt
+
+# Output
+
+# banana
+
+# Why
+
+# grep scans each line
+
+# Prints the line containing "banana"
+
+# Example 2 — Case-insensitive search (-i)
+
+# printf "Hello\nhello\nHELLO\n" > hello.txt
+
+# grep -i "hello" hello.txt
+
+# Output: 
+
+# Hello
+# hello
+# HELLO
+
+# Why
+
+# -i ignores letter case
+
+# All variations match
+
+# Example 3 — Search from command output (pipe)
+
+# ls | grep ".py"
+
+# Output
+
+# lesson1.py
+# lesson2.py
+# exercises1.py
+
+# Why
+
+# ls → list files
+
+# grep ".py" → keep only lines containing .py
+
+# Example 4 — Show line numbers (-n)
+
+# printf "red\ngreen\nblue\ngreen\n" > colors.txt
+
+# grep -n "green" colors.txt
+
+# Output
+
+# 2:green
+# 4:green
+
+# Why
+
+# -n prefixes line numbers
+
+# Helps locate matches quickly
