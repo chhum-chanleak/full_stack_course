@@ -255,8 +255,8 @@
 
 # Knowing less means you know how to read Linux documentation.
 
-# 5. echo
-# i. echo prints text (or variables) to the terminal.
+# 5. echo/printf
+# i. echo/printf prints text (or variables) to the terminal.
 
 # Basic syntax:
 
