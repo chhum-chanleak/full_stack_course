@@ -24,7 +24,6 @@
 # b.
 # Task: Use "set" with "|" and "grep" to find a declared variable.
 
-
 # 3. wc
 # i. What does "wc" stand for?
 # ii. Why do we use "wc"?
@@ -55,3 +54,29 @@
 
 # d.
 # Task: Show only lines containing “apple” from fruits.txt.
+
+# 5. grep
+# i. What does "grep" stands for?
+# ii. Why do we use it?
+
+# a.
+# Task: Search for "dog" in animals1.txt, and animals2.txt.
+
+# Do these first:
+# printf "cat\ndog\nfish\n" > animals1.txt
+# printf "lion\ndog\ntiger\n" > animals2.txt
+
+# b.
+# Task: Invert search "error" in logs.txt.
+
+# Do this first:
+# printf "error\nwarning\ninfo\nerror\n" > logs.txt
+
+# c.
+# Task: Use "grep" with pipe "|" to search for ".txt" files only.
+
+# d.
+# Task: Case-intensitively search for lines that contain "yes" inside answers.txt
+
+# Do this first
+# printf "yes\nno\nyes\nyes\n" > answers.txt
