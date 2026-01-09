@@ -76,7 +76,7 @@
 # Task: Use "grep" with pipe "|" to search for ".txt" files only.
 
 # d.
-# Task: Case-intensitively search for lines that contain "yes" inside answers.txt
+# Task: Case-insensitively search for lines that contain "yes" inside answers.txt
 
 # Do this first
 # printf "yes\nno\nyes\nyes\n" > answers.txt
