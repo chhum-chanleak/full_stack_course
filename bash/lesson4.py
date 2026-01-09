@@ -269,19 +269,22 @@
 
 # grep ".py" → keep only lines containing .py
 
-# Example 4 — Show line numbers (-n)
+# Example 4 — Exclude matching lines (-v)
 
-# printf "red\ngreen\nblue\ngreen\n" > colors.txt
+# printf "pass\nfail\npass\nfail\n" > results.txt
 
-# grep -n "green" colors.txt
+# grep -v "fail" results.txt
 
 # Output
-
-# 2:green
-# 4:green
+# pass
+# pass
 
 # Why
 
-# -n prefixes line numbers
+# grep normally keeps matching lines
 
-# Helps locate matches quickly
+# -v inverts the match
+
+# Lines containing "fail" are excluded
+
+# Only lines not matching "fail" are printed
