@@ -19,6 +19,7 @@
 # mv file.txt docs/
 
 # File keeps the same name
+
 # docs/ must already exist
 
 # Example 3: Rename a directory
@@ -43,7 +44,11 @@
 
 # 2. cat
 # i. "cat" stands for "concatenate".
-# ii. We use it 
+# ii. We use it to:.
+#   1. View content of files. (cat filename.txt)
+#   2. Create files with content 
+#       or overwrite content of an existing file with new content. (> (overwrite))
+#   3. Append/Add content to existing files. (>> (append))
 
 # What cat does
 
@@ -75,7 +80,6 @@
 
 # cat a.txt b.txt
 
-
 # Contents are shown one after another
 
 # Example 3: Create a file using cat
@@ -91,7 +95,7 @@
 # Saves the file
 
 # *Overwrites existing file
-
+# *bookmark
 # Example 4: Append one file to another
 
 # Task: Append part2.txt to the end of main.txt.
