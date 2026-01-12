@@ -46,8 +46,11 @@
 
 # Exercise 5: Use ls with > and >>
 
-# Task:
-# Append the contents of part2.txt to the end of main.txt.
+# Task 1:
+# Use "ls >" to create a list.txt file and overwrite content of house/ to list.txt
+
+# Task 2:
+# Append the contents of house directory to the end of main.txt.
 
 # 3. > (overwrite) vs >> (append)
 # i. What does ">" do?
