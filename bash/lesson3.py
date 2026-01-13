@@ -95,7 +95,7 @@
 # Saves the file
 
 # *Overwrites existing file
-# *bookmark
+
 # Example 4: Append one file to another
 
 # Task: Append part2.txt to the end of main.txt.
