@@ -52,6 +52,13 @@
 
 # Key idea: structured progress tracking
 
+# 2 .The basic Git workflow goes something like this:
+# i. You modify files in your working tree.
+# ii. You selectively stage just those changes you want to be part of your next commit, which adds
+# only those changes to the staging area.
+# iii. You do a commit, which takes the files as they are in the staging area and stores that snapshot
+# permanently to your Git directory.
+
 # 3. git config
 # i. "git config" = Git’s settings system
 # ii. It defines (who you are, how Git behaves, and what tools it uses)
