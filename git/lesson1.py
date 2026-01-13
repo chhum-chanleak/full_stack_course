@@ -117,7 +117,7 @@
 
 # git st
 
-# 3. Scopes of "git config"
+# 4. Scopes of "git config"
 #   3.1. System (--system) – applies to all users on the machine
 #   3.2. Global (--global) – applies to the current user across all repos
 #   3.3. Local (default) – applies only to the current repo. Local overrides global, global overrides system
