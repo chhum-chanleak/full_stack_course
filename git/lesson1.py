@@ -52,7 +52,7 @@
 
 # Key idea: structured progress tracking
 
-# 2. git config
+# 3. git config
 # i. "git config" = Git’s settings system
 # ii. It defines (who you are, how Git behaves, and what tools it uses)
 
@@ -114,4 +114,3 @@
 #   3.1. System (--system) – applies to all users on the machine
 #   3.2. Global (--global) – applies to the current user across all repos
 #   3.3. Local (default) – applies only to the current repo. Local overrides global, global overrides system
-
