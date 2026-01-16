@@ -1,10 +1,3 @@
-# 1. Quiz
-# You can obtain a Git repository in one of two ways:
-
-# By taking a local directory that is not under version control and turning it into a Git repository using __________.
-
-# By copying an existing Git repository from elsewhere using __________.
-
 # 2. git init
 # i. Initializing a Repository in an Existing Directory
 
