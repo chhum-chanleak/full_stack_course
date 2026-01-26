@@ -70,6 +70,7 @@
 # Git needs to know who made a commit.
 
 # git config --global user.name "Your Name"
+
 # git config --global user.email "you@example.com"
 
 # --global → applies to all repositories
@@ -128,19 +129,24 @@
 
 # 5. git init
 # i. Initializing a Repository in an Existing Directory
-# ii. This creates a new subdirectory named .git that contains all of your necessary repository files — a
+# ii. This creates a new subdirectory named .git that contains all of your necessary repository files
+
 # Git repository skeleton.
 
 # Initializing a repository means:
 
 # Taking a normal folder and telling Git:
+
 # “Start tracking changes here.”
 
 # syntax: git init
 
 # Example 1 — Empty directory
+
 # mkdir my-project
+
 # cd my-project
+
 # git init
 
 # Result:
@@ -156,10 +162,13 @@
 # You’ll see:
 
 # No commits yet
+
 # nothing to commit
 
 # Example 2 — Directory with files already in it
+
 # cd website
+
 # ls
 
 # Output:
@@ -181,8 +190,11 @@
 # git status
 
 # Example 3 — Start tracking after init
+
 # git init
+
 # git add .
+
 # git commit -m "Initial commit"
 
 # Result:
@@ -194,6 +206,7 @@
 # This is the most common real-world flow.
 
 # Example 4 — Verify it’s a Git repository
+
 # ls -a
 
 # Output includes:
@@ -233,6 +246,7 @@
 # Automatically sets up origin (the remote)
 
 # Example 1 — Basic clone
+
 # git clone https://github.com/user/project.git
 
 # Result:
@@ -242,6 +256,7 @@
 # You can immediately run:
 
 # cd project
+
 # git status
 
 # Example 2 — Clone into a custom directory name
