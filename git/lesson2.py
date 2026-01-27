@@ -4,11 +4,13 @@
 # i. We use "git status" to see which files are staged, modified, or untracked
 
 # Example 1 — Clean working directory
+
 # git status
 
 # Output:
 
 # On branch main
+
 # nothing to commit, working tree clean
 
 # Meaning:
@@ -40,7 +42,9 @@
 # Changes not staged, so won’t be included in the next commit yet
 
 # Example 3 — Staged changes
+
 # git add file1.txt
+
 # git status
 
 # Output:
@@ -105,14 +109,14 @@
 # Each commit includes hash, author, date, and message
 
 # Example 2 — One-line log
+
 # git log --oneline
 
-
-# Output:
+# Output: k
 
 # a3f5c1e Fix login bug
-# 9b2d4c8 Initial commit
 
+# 9b2d4c8 Initial commit
 
 # Meaning:
 
@@ -121,8 +125,8 @@
 # Useful for quickly scanning history
 
 # Example 3 — Limit number of commits
-# git log -2
 
+# git log -2
 
 # Output:
 
@@ -138,6 +142,7 @@
 # Shows only the last 2 commits
 
 # Example 4 — File-specific history
+
 # git log README.md
 
 # Meaning:
