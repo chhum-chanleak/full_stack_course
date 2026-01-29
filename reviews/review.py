@@ -172,3 +172,45 @@
 # Task:
 # Create a file named notes.md inside a directory called projects.
 # (Assume the directory already exists.)
+
+#lx0j
+
+# 1. rm
+# i. What does "rm" command stands for?
+# ii. Why do we use it?
+
+# a.
+# Task:
+# Delete a file named old_notes.txt.
+
+# b.
+# Task:
+# Delete three files named a.txt, b.txt, and c.txt using one command.
+
+# c.
+# Task:
+# Delete a file named config.json, but make sure Bash asks for confirmation first.
+
+# d.
+# Task:
+# Delete a directory named temp, including all files inside it, with confirmation prompts.
+
+#lx0l
+
+# 1. cp
+# i. What does "cp" stands for?
+# ii. Why do we use it?
+
+# a.
+# Task:
+# Copy a file named data.txt to a new file called data_backup.txt.
+
+# b.
+# Task: Copy a file named photo.jpg into a directory called images.
+# (Assume the directory already exists.)
+
+# c.
+# Task: Copy three files — a.js, b.js, and c.js — into a directory named scripts.
+
+# d.
+# Task: Copy a directory named project and all of its contents into a new directory called project_backup.
