@@ -101,7 +101,6 @@
 
 #     Initial commit
 
-
 # Meaning:
 
 # Shows commits in reverse chronological order
@@ -135,7 +134,6 @@
 
 # commit 9b2d4c8a
 #     Initial commit
-
 
 # Meaning:
 
