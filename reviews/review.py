@@ -385,3 +385,45 @@
 
 # d.
 # Task: Move a.txt, b.txt, and c.txt into the directory archive/.
+
+#lx0r
+
+# 1. variables
+# i. Why do we use variables?
+
+# a.
+# Assign your favorite color to a variable named COLOR and print it.
+
+# b.
+# Create a variable NAME with your name and print:
+
+# Hello, <NAME>! Welcome to Bash.
+
+# c.
+# Assign the number 5 to a variable X and 10 to a variable Y.
+# Print their sum.
+
+# d.
+# Store the current date and time in a variable NOW and print it.
+
+#lx0t
+
+# 1. wc
+# i. What does "wc" stand for?
+# ii. Why do we use "wc"?
+
+# Do this first:
+# printf "red apple\ngreen banana\nblue cherry\nyellow pear" > book.txt
+
+# a.
+# Task: Default wc output of book.txt
+
+# b.
+# Task: Count lines in book.txt 
+# *Note: "wc -l" counts "\n" not actual the number of lines in the file.
+
+# c.
+# Task: Count words in book.txt
+
+# d.
+# Task: Count characters (newline matters) in book.txt
