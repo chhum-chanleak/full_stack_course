@@ -9,9 +9,9 @@
 
 # 1. Create file0.txt
 # 2. Type "git status"
-# 2. Add/stage file0.txt
-# 3. Commit
-# 4. Type "git status" and observe the result.
+# 3. Add/stage file0.txt
+# 4. Commit
+# 5. Type "git status" and observe the result.
 
 # b. Modified but unstaged file
 
