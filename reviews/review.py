@@ -366,7 +366,11 @@
 # Task: Use "set" alone and the see result.
 
 # b.
-# Task: Use "set" with "|" and "grep" to find a declared variable name "MY_VAR".
+
+# Do this first:
+# Create a variable named AGE which has a value of 12.
+
+# Task: Use "set" with "|" and "grep" to find a declared variable name AGE.
 
 #lx0m
 
