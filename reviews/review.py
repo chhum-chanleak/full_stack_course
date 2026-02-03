@@ -48,7 +48,7 @@
 
 #lx0d
 
-1.
+# 1.
 # i. What does "ls" stand for?
 # ii. Why do we use it?
 
@@ -214,3 +214,139 @@
 
 # d.
 # Task: Copy a directory named project and all of its contents into a new directory called project_backup.
+
+#lx0n
+
+# 1. cat
+# i. What does "cat" stand for?
+# ii. Why do we use it?
+
+# a.
+# Task: Show the contents of notes.txt on the terminal.
+
+# b.
+# Task: Display a.txt and b.txt one after another.
+
+# c.
+# Task: Create a file called todo.txt and type content into it (Press Ctrl D to save).
+
+# d.
+# Task: Append the contents of part2.txt to the end of main.txt.
+
+#lx0o
+
+# 1. > (overwrite) vs >> (append)
+# i. What does ">" do?
+# ii. What does ">>" do?
+
+# a.
+# Task: Create a file called greetings.txt and write the text:
+# Hello, world!
+
+# b.
+# Task: greetings.txt already exists. Replace its content with:
+# Good morning!
+
+# c.
+# Task: Add a second line to greetings.txt that says:
+# How are you today?
+
+# d.
+# Task: You have part1.txt and part2.txt. Append part2.txt to part1.txt.
+
+#lx0q
+
+# 1. echo
+# i. Why do we use "echo"?
+
+# a.
+# Print the text "Hello, World!"" to the terminal.
+
+# b.
+# Print Loading... without moving to the next line.
+
+# c.
+# Assign your name to a variable NAME and then print "Hello, <NAME>! using echo.
+
+# d.
+# Print the following exactly as shown (including quotes):
+
+# He said, "Bash is fun!"
+
+#lx0v
+
+# 1. grep
+# i. What does "grep" stand for?
+# ii. Why do we use it?
+
+# a.
+# Do these first:
+# printf "cat\ndog\nfish\n" > animals1.txt
+# printf "lion\ndog\ntiger\n" > animals2.txt
+
+# Task: Search for "dog" in animals1.txt, and animals2.txt.
+
+# b.
+# Do this first:
+# printf "error\nwarning\ninfo\nerror\n" > logs.txt
+
+# Task: Invert search "error" in logs.txt.
+
+# c.
+# Task: Use "grep" with pipe "|" to search for ".txt" files only.
+
+# d.
+# Do this first
+# printf "yes\nno\nYes\nyes\n" > answers.txt
+
+# Task: Case-insensitively search for lines that contain "yes" inside answers.txt
+
+#lx0p
+
+# 1. less
+# i. Why do we use "less"?
+
+# a.
+# You have a very large file called server.log.
+# You want to read it safely and scroll up and down.
+
+# Question:
+# Which command should you use?
+
+# b.
+# A teammate says:
+
+# “The issue is around line 120 in config.txt.”
+
+# Question:
+# Which command opens the file directly at that line?
+
+# c.
+# You opened app.log using less.
+# You want to find the word error.
+
+# Question:
+# What exact keys do you press inside less?
+
+# d.
+# You want to read documentation for the ls command.
+
+# Question:
+# What command do you run, and what tool is used to display it?
+
+#lx0u
+
+# 1. Pipe "|"
+# i. Why do we use pipe "|"?
+
+# a.
+# Task: Count how many files/directories are in your current directory using ls and a pipe.
+
+# b.
+# Task: List files/directories with details and show only the ones ending with ".md".
+
+# c.
+# Task: Print these words "apple\nbanana\ncherry" and only show the ones that contain the letter "a".
+
+# d.
+# Task: Show only lines containing “apple” from fruits.txt.
