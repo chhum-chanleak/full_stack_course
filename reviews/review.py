@@ -357,3 +357,31 @@
 # 1. printf "red apple\ngreen banana\nblue cherry" > fruits.txt
 
 # Task: Show only lines containing “apple” from fruits.txt.
+
+#lx0s
+
+# 1. What does "set" do?
+
+# a.
+# Task: Use "set" alone and the see result.
+
+# b.
+# Task: Use "set" with "|" and "grep" to find a declared variable name "MY_VAR".
+
+#lx0m
+
+# 1. mv
+# i. What does "mv" stand for?
+# ii. Why do we use it?
+
+# a.
+# Task: You have a file named draft.txt. Rename it to final.txt.
+
+# b.
+# Task: Move report.pdf into the existing directory docs/.
+
+# c.
+# Task: Rename the directory images to assets.
+
+# d.
+# Task: Move a.txt, b.txt, and c.txt into the directory archive/.
