@@ -219,6 +219,117 @@
 
 # This is a safety valve many beginners don’t know.
 
+# 4. "merge conflict"
+# i. A merge conflict happens when:
+
+# Git tries to merge two histories
+
+# Both modified the same part of the same file
+
+# Git cannot decide which version is correct
+
+# Important:
+
+# Git never guesses. It asks you.
+
+# 2. What a conflict looks like
+
+# Inside a conflicted file, Git marks it clearly:
+
+# <<<<<<< HEAD
+# print("Hello from main")
+# =======
+# print("Hello from feature")
+# >>>>>>> feature-branch
+
+# Meaning:
+
+# HEAD → your current branch
+
+# Bottom section → incoming branch
+
+# Your job → choose or combine
+
+# 3. The universal conflict-resolution workflow
+
+# Run merge (conflict occurs)
+
+# Open conflicted files
+
+# Decide what code should survive
+
+# Remove conflict markers
+
+# Stage resolved files
+
+# Commit the merge
+
+# git add .
+# git commit
+
+# 4. Four concrete conflict examples
+# Example 1: Same line edited differently
+
+# Situation:
+# You change a print statement in main.
+# Your teammate changes the same line in feature.
+
+# Result: conflict.
+
+# Resolution:
+# Pick one version or combine:
+
+# print("Hello from main and feature")
+
+# Then:
+
+# git add file.py
+# git commit
+
+# Example 2: One deletes a file, the other edits it
+
+# Situation:
+
+# Branch A deletes notes.py
+
+# Branch B edits notes.py
+
+# Git asks:
+
+# “Delete or keep?”
+
+# Resolution options:
+
+# Keep file → stage it
+
+# Delete file → git rm notes.py
+
+# Then commit.
+
+# Example 3: Same file, different nearby lines
+
+# Situation:
+# Two branches modify adjacent lines in a function.
+
+# Git may still conflict because context overlaps.
+
+# Resolution:
+# Manually merge logic carefully, ensuring correctness.
+
+# Then:
+
+# git add .
+# git commit
+
+# Example 4: Conflict during git pull
+
+# Situation:
+# You run:
+
+# git pull
+
+# Conflict appears.
+
 # 4. git pull
 # i. "git pull" brings changes from a remote repository into your local branch.
 
