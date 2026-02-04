@@ -62,3 +62,92 @@
 # git push origin v1.0
 
 # Pushes the tag v1.0 to remote so others can reference this exact commit.
+
+# 4. git pull
+# i. "git pull" brings changes from a remote repository into your local branch.
+
+# Under the hood, it does two steps:
+
+# git fetch  +  git merge
+
+# So mentally:
+
+# “Get remote changes, then integrate them into my current branch.”
+
+# Basic form:
+
+# git pull <remote> <branch>
+
+# Most of the time:
+
+# git pull
+
+# Example 1: Simple pull (most common)
+
+# You’re on main, and someone pushed new commits to origin/main.
+
+# git pull
+
+# What happens:
+
+# Fetches latest commits from the remote
+
+# Merges them into your local main
+
+# Use this before you start working.
+
+# Example 2: Pull from a specific branch
+
+# You want to pull changes from origin/main while on another branch.
+
+# git pull origin main
+
+# What happens:
+
+# Downloads changes from origin/main
+
+# Merges them into your current branch
+
+# Useful when syncing a feature branch with main.
+
+# Example 3: Pull with rebase (clean history)
+
+# You want to avoid merge commits.
+
+# git pull --rebase
+
+# What happens:
+
+# Fetches remote changes
+
+# Replays your local commits on top of them
+
+# Result:
+
+# Linear, cleaner commit history
+
+# Common in professional workflows
+
+# Example 4: Pull after a conflict exists
+
+# You try:
+
+# git pull
+
+# Git responds with a merge conflict.
+
+# What you do:
+
+# Open conflicted files
+
+# Resolve conflicts manually
+
+# Stage fixes:
+
+# git add .
+
+# Complete the merge:
+
+# git commit
+
+# This finalizes the pull.
