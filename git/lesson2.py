@@ -211,6 +211,105 @@
 
 # This is common in teams and open-source projects.
 
+# 4. git diff
+# i. git diff shows what has changed, line by line.
+
+# Think of it as:
+
+# “Show me the difference between versions of my files.”
+
+# It does not change anything — it only shows changes.
+
+# How to read git diff (very important)
+
+# - removed line
+
+# + added line
+
+# - = old content (deleted)
+
+# + = new content (added)
+
+# No sign = unchanged context
+
+# Example 1: See unstaged changes
+
+# Situation
+
+# You edited app.js but did NOT run git add.
+
+# git diff
+
+# What you see
+
+# Changes between:
+
+# Working directory
+
+# Last commit
+
+# Use this before staging to review what you actually changed.
+
+# Example 2: See staged changes
+
+# Situation
+
+# You ran git add app.js, but haven’t committed yet.
+
+# git diff --staged
+
+# (or git diff --cached)
+
+# What it shows
+
+# Changes between:
+
+# Staging area
+
+# Last commit
+
+# Use this before committing to double-check correctness.
+
+# Example 3: Compare two commits
+
+# Situation
+
+# You want to see what changed between two commits.
+
+# git diff abc123 def456
+
+# What it shows
+
+# All changes from abc123 → def456
+
+# Very useful when:
+
+# Debugging regressions
+
+# Reviewing history
+
+# Understanding old code
+
+# Example 4: Diff a single file
+
+# Situation
+
+# You only care about index.html.
+
+# git diff index.html
+
+# Why this is useful
+
+# Less noise
+
+# Faster reviews
+
+# Better focus
+
+# Works with:
+
+# git diff --staged index.html
+
 # 5. git log
 # i. We use "git log" to view the commit history of the current branch (newest first).
 
