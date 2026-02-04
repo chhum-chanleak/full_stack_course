@@ -59,3 +59,38 @@
 
 # Question:
 # What is the correct command sequence?
+
+# 3. git merge
+# i. Why do we use "git merch"?
+
+# a. Basic branch merge
+
+# Scenario:
+# You are on the main branch. A feature branch feature/arrays has been completed and needs to be integrated.
+
+# Question:
+# What command merges the feature branch into main?
+
+# b. Merge remote changes after fetch
+
+# Scenario:
+# You ran git fetch and now want to integrate the latest remote changes from origin/main into your local branch.
+
+# Question:
+# What command do you run?
+
+# c. Resolving merge conflicts
+
+# Scenario:
+# You merge a branch and Git reports conflicts in several files.
+
+# Question:
+# What is the correct sequence to finish the merge?
+
+# d. Aborting a bad merge
+
+# Scenario:
+# You start a merge, conflicts appear, and you realize this merge should not happen yet.
+
+# Question:
+# What command safely cancels the merge and restores the previous state?
