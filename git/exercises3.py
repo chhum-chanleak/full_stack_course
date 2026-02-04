@@ -24,3 +24,38 @@
 # Scenario: You tagged a release v1.0 after finishing the exercises.
 
 # Question: How do you push this tag to the remote repository?
+
+# 2. git fetch
+# i. Why do we use "git fetch"?
+
+# a. Safe update check
+
+# Scenario:
+# You’re on main. You want to see if the remote repository has new commits without changing your code.
+
+# Question:
+# What command do you run?
+
+# b. Inspect fetched changes
+
+# Scenario:
+# You already ran git fetch. You want to see commits that exist on the remote but not locally.
+
+# Question:
+# What command shows those commits?
+
+# c. Fetch from a specific remote
+
+# Scenario:
+# Your repo has two remotes: origin and upstream. You want to update your knowledge of upstream.
+
+# Question:
+# What command do you run?
+
+# d. Fetch, then integrate explicitly
+
+# Scenario:
+# You want full control: first see changes, then integrate them into main.
+
+# Question:
+# What is the correct command sequence?
