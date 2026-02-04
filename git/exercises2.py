@@ -41,34 +41,9 @@
 # 1. Create newfile.txt
 # 2. Type "git status" and observe the result.
 
-#git0j
-
-# 2. git log
-# i. Why do we use "git log"?
-
-# a. View commit history
-
-# Task:
-# Show the commit history of the current branch.
-
-# b. Compact history view
-
-# Task:
-# Show a short, readable history list.
-
-# c. Last 3 commits only
-
-# Task:
-# Display only the most recent 3 commits.
-
-# d. History of a specific file
-
-# Task:
-# Find all commits that changed index.html.
-
 #git0k
 
-# 3. git add
+# 2. git add
 # i. Why do we use "git add"?
 
 # a. Stage one file
@@ -90,6 +65,31 @@
 
 # Task:
 # Stage only some changes inside main.py.
+
+#git0j
+
+# 3. git log
+# i. Why do we use "git log"?
+
+# a. View commit history
+
+# Task:
+# Show the commit history of the current branch.
+
+# b. Compact history view
+
+# Task:
+# Show a short, readable history list.
+
+# c. Last 3 commits only
+
+# Task:
+# Display only the most recent 3 commits.
+
+# d. History of a specific file
+
+# Task:
+# Find all commits that changed index.html.
 
 # 4. git commit
 # i. Why do we use "git commit"?
