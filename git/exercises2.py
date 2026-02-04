@@ -123,7 +123,7 @@
 
 #git0j
 
-# 4. git log
+# 5. git log
 # i. Why do we use "git log"?
 
 # a. View commit history

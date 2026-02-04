@@ -207,7 +207,7 @@
 
 # This is common in teams and open-source projects.
 
-# 4. git log
+# 5. git log
 # i. We use "git log" to view the commit history of the current branch (newest first).
 
 # Example 1 — Basic git log
