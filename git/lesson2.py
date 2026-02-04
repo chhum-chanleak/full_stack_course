@@ -126,7 +126,7 @@
 
 # Useful when one file contains unrelated changes
 
-# 3. git log
+# 4. git log
 # i. We use "git log" to view the commit history of the current branch (newest first).
 
 # Example 1 — Basic git log
