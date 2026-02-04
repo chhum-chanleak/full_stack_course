@@ -81,7 +81,52 @@
 
 # Use git add newfile.txt to start tracking it
 
-# 2. git log
+# 2. git add
+# i. git add moves changes from the working directory to the staging area.
+
+# Example 1 — Add a single file
+
+# git add file1.txt
+
+# Meaning:
+
+# Stages file1.txt
+
+# Only this file will be included in the next commit
+
+# Example 2 — Add multiple specific files
+
+# git add file1.txt file2.txt
+
+# Meaning:
+
+# Stages both files
+
+# Other modified files remain unstaged
+
+# Example 3 — Add all changes
+
+# git add .
+
+# Meaning:
+
+# Stages all changes in the current directory and subdirectories
+
+# Includes modified and untracked files
+
+# Use carefully — it stages everything.
+
+# Example 4 — Add parts of a file (interactive)
+
+# git add -p
+
+# Meaning:
+
+# Lets you stage changes chunk by chunk
+
+# Useful when one file contains unrelated changes
+
+# 3. git log
 # i. We use "git log" to view the commit history of the current branch (newest first).
 
 # Example 1 — Basic git log
@@ -150,48 +195,3 @@
 # Useful for tracking when and why a file changed
 
 # *Tracking and staging files
-
-# 3. git add
-# i. git add moves changes from the working directory to the staging area.
-
-# Example 1 — Add a single file
-
-# git add file1.txt
-
-# Meaning:
-
-# Stages file1.txt
-
-# Only this file will be included in the next commit
-
-# Example 2 — Add multiple specific files
-
-# git add file1.txt file2.txt
-
-# Meaning:
-
-# Stages both files
-
-# Other modified files remain unstaged
-
-# Example 3 — Add all changes
-
-# git add .
-
-# Meaning:
-
-# Stages all changes in the current directory and subdirectories
-
-# Includes modified and untracked files
-
-# Use carefully — it stages everything.
-
-# Example 4 — Add parts of a file (interactive)
-
-# git add -p
-
-# Meaning:
-
-# Lets you stage changes chunk by chunk
-
-# Useful when one file contains unrelated changes
