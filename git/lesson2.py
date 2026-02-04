@@ -127,6 +127,10 @@
 # Useful when one file contains unrelated changes
 
 # 3. git commit
+# i. A commit is a snapshot of your project at a moment in time:
+# . You edit files
+# . You stage changes (git add)
+# . You commit them (git commit)
 
 # Example 1: First commit (most common)
 
