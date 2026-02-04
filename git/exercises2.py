@@ -99,28 +99,6 @@
 
 # What command do you run, and what is a good commit message?
 
-# a.
-# git add .
-# git commit -m "Initial commit"
-
-# b.
-# git add README.md
-# git commit -m "Fix typo in README"
-
-# c.
-
-# B is better because:
-
-# It explains what changed
-
-# It explains why the change matters
-
-# It is specific and searchable in history
-
-# d.
-# git add cart.js checkout.js
-# git commit -m "Fix incorrect total price calculation at checkout"
-
 #git0j
 
 # 5. git log
