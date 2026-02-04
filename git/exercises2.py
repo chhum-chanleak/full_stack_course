@@ -90,3 +90,58 @@
 
 # Task:
 # Stage only some changes inside main.py.
+
+# 4. git commit
+# i. Why do we use "git commit"?
+
+# a. Basic commit
+# You created two new files: index.html and style.css.
+# You want to commit both with a proper first commit message.
+
+# What commands do you run?
+
+# b. Commit a single file change
+# You fixed a typo in README.md.
+# You don’t want to commit any other changes.
+
+# What commands do you run?
+
+# c: Identify a bad commit message
+
+# Which commit message is better, and why?
+
+# A)
+
+# update stuff
+
+# B)
+
+# Add validation for empty password field
+
+# d. Multi-file, single-purpose commit
+
+# You changed cart.js and checkout.js to fix a total price calculation bug.
+
+# What command do you run, and what is a good commit message?
+
+# a.
+# git add .
+# git commit -m "Initial commit"
+
+# b.
+# git add README.md
+# git commit -m "Fix typo in README"
+
+# c.
+
+# B is better because:
+
+# It explains what changed
+
+# It explains why the change matters
+
+# It is specific and searchable in history
+
+# d.
+# git add cart.js checkout.js
+# git commit -m "Fix incorrect total price calculation at checkout"
