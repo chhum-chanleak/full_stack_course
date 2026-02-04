@@ -63,6 +63,82 @@
 
 # Pushes the tag v1.0 to remote so others can reference this exact commit.
 
+# 2. git fetch
+# i. git fetch downloads updates from a remote repository but:
+# ❌ does NOT change your working directory
+
+# ❌ does NOT change your current branch
+
+# ✅ updates remote-tracking branches (origin/main, etc.)
+
+# Mental model:
+
+# “Let me see what changed over there, without touching my work.”
+
+# Basic form:
+
+# git fetch
+
+# Example 1: Fetch latest changes safely
+
+# You want to check if the remote has new commits.
+
+# git fetch
+
+# Then inspect:
+
+# git log main..origin/main
+
+# Meaning:
+
+# Shows commits that exist on remote but not locally
+
+# Your code remains untouched
+
+# Example 2: Fetch a specific remote
+
+# You have multiple remotes (e.g., origin, upstream).
+
+# git fetch upstream
+
+# What happens:
+
+# Downloads updates from upstream
+
+# Updates upstream/main, upstream/dev, etc.
+
+# Still no local changes
+
+# Example 3: Compare before merging
+
+# You want to see differences before integration.
+
+# git fetch
+# git diff main origin/main
+
+# Meaning:
+
+# Shows exact code changes
+
+# You decide whether to merge
+
+# This is the phase git pull skips.
+
+# Example 4: Fetch without merging, then merge manually
+
+# You want full control.
+
+# git fetch
+# git merge origin/main
+
+# What happens:
+
+# First command updates knowledge
+
+# Second command updates reality
+
+# This is explicit Git usage.
+
 # 4. git pull
 # i. "git pull" brings changes from a remote repository into your local branch.
 
