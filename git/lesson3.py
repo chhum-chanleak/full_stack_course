@@ -139,6 +139,86 @@
 
 # This is explicit Git usage.
 
+# 3. git merge
+# i. "git merge" combines another branch into your current branch.
+
+# Key points:
+
+# It changes your branch
+
+# It may create a merge commit
+
+# Conflicts (if any) happen here, not during fetch
+
+# Mental model:
+
+# “Bring that branch’s history into this branch.”
+
+# Basic form:
+
+# git merge <branch>
+
+# Example 1: Fast-forward merge (no conflict, no merge commit)
+
+# You’re on main. No one changed main, but feature/loops has new commits.
+
+# git merge feature/loops
+
+# What happens:
+
+# main simply moves forward
+
+# No merge commit created
+
+# This is the cleanest merge.
+
+# Example 2: Merging remote-tracking branch after fetch
+
+# You fetched new remote changes and want to integrate them.
+
+# git fetch
+# git merge origin/main
+
+# What happens:
+
+# Combines fetched remote commits into your local branch
+
+# This is exactly what git pull hides
+
+# Example 3: Merge with conflicts
+
+# Both you and a teammate edited the same lines.
+
+# git merge origin/main
+
+# Git responds with a conflict.
+
+# Resolution flow:
+
+# fix conflicts in files
+# git add .
+# git commit
+
+# Result:
+
+# Merge commit created
+
+# Conflict resolved explicitly
+
+# Example 4: Abort a merge
+
+# You start a merge and realize it’s wrong or too messy.
+
+# git merge --abort
+
+# What happens:
+
+# Repository returns to pre-merge state
+
+# No history damage
+
+# This is a safety valve many beginners don’t know.
+
 # 4. git pull
 # i. "git pull" brings changes from a remote repository into your local branch.
 
