@@ -126,6 +126,87 @@
 
 # Useful when one file contains unrelated changes
 
+# 3. git commit
+
+# Example 1: First commit (most common)
+
+# Situation
+
+# You created a new project and added files.
+
+# git add .
+# git commit -m "Initial commit"
+
+# What happened?
+
+# git add . → stages all files
+
+# git commit → saves them as the first snapshot
+
+# This commit becomes the root of your project history.
+
+# Example 2: Commit after fixing a bug
+
+# Situation
+
+# You fixed a login bug in auth.js.
+
+# git add auth.js
+
+# git commit -m "Fix login validation bug"
+
+# Why this is good
+
+# You staged only the file you changed
+
+# The message explains intent, not implementation
+
+# Bad message ❌
+
+# changed stuff
+
+# Good message ✅
+
+# Fix login validation bug
+
+# Example 3: Commit multiple related changes
+
+# Situation
+
+# You updated styles and adjusted layout logic.
+
+# git add styles.css layout.js
+# git commit -m "Improve homepage layout responsiveness"
+
+# Rule of thumb
+
+# One commit = one logical change
+
+# Even if multiple files are involved, they should serve one purpose.
+
+# Example 4: Commit with detailed message (professional style)
+
+# Situation
+
+# A bigger feature was added.
+
+# git commit -m "Add user profile page
+
+# - Create profile component
+# - Add routing
+# - Display user data
+# "
+
+# Why this matters
+
+# First line = summary
+
+# Blank line
+
+# Bullet points = details
+
+# This is common in teams and open-source projects.
+
 # 4. git log
 # i. We use "git log" to view the commit history of the current branch (newest first).
 
