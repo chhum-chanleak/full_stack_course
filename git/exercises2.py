@@ -113,7 +113,7 @@
 
 # b. Compact history view
 
-# Task:
+# Task: 
 # Show a short, readable history list.
 
 # c. Last 3 commits only
@@ -125,3 +125,26 @@
 
 # Task:
 # Find all commits that changed index.html.
+
+# git0l
+
+# 6. git diff
+# i. Why do we use git diff?
+
+# a. Unstaged changes
+# You edited main.js but have not run git add.
+# Which command shows what you changed?
+
+# b. Staged vs committed
+# You ran:
+# git add index.html
+# but have not committed yet.
+# Which command shows exactly what will be committed?
+
+# c. Compare two commits
+# You want to see the differences between commit a1b2c3 and commit d4e5f6.
+# Which command do you use?
+
+# d. Diff a single file
+# Several files were modified, but you only care about changes in style.css.
+# Which command do you run?
