@@ -66,6 +66,8 @@
 # Task:
 # Stage only some changes inside main.py.
 
+# git0l
+
 # 3. git commit
 # i. Why do we use "git commit"?
 
