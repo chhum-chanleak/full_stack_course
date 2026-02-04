@@ -66,32 +66,7 @@
 # Task:
 # Stage only some changes inside main.py.
 
-#git0j
-
-# 3. git log
-# i. Why do we use "git log"?
-
-# a. View commit history
-
-# Task:
-# Show the commit history of the current branch.
-
-# b. Compact history view
-
-# Task:
-# Show a short, readable history list.
-
-# c. Last 3 commits only
-
-# Task:
-# Display only the most recent 3 commits.
-
-# d. History of a specific file
-
-# Task:
-# Find all commits that changed index.html.
-
-# 4. git commit
+# 3. git commit
 # i. Why do we use "git commit"?
 
 # a. Basic commit
@@ -145,3 +120,28 @@
 # d.
 # git add cart.js checkout.js
 # git commit -m "Fix incorrect total price calculation at checkout"
+
+#git0j
+
+# 4. git log
+# i. Why do we use "git log"?
+
+# a. View commit history
+
+# Task:
+# Show the commit history of the current branch.
+
+# b. Compact history view
+
+# Task:
+# Show a short, readable history list.
+
+# c. Last 3 commits only
+
+# Task:
+# Display only the most recent 3 commits.
+
+# d. History of a specific file
+
+# Task:
+# Find all commits that changed index.html.
