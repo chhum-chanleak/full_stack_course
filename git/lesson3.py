@@ -232,7 +232,7 @@
 
 # Git never guesses. It asks you.
 
-# 2. What a conflict looks like
+# *What a conflict looks like
 
 # Inside a conflicted file, Git marks it clearly:
 
