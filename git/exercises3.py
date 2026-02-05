@@ -97,50 +97,50 @@
 
 # 4. "merge conflict"
 
-a. Same line edited differently
+# a. Same line edited differently
 
-Scenario:
-You are on main. A teammate changed line 10 in lesson.py while you also edited the same line. You attempt:
+# Scenario:
+# You are on main. A teammate changed line 10 in lesson.py while you also edited the same line. You attempt:
 
-git merge feature/lesson
+# git merge feature/lesson
 
 
-Git reports a conflict.
+# Git reports a conflict.
 
-Question:
-How do you resolve it?
+# Question:
+# How do you resolve it?
 
-b. File deleted on one branch, edited on another
+# b. File deleted on one branch, edited on another
 
-Scenario:
+# Scenario:
 
-On feature/cleanup, old_lesson.py was deleted.
+# On feature/cleanup, old_lesson.py was deleted.
 
-On main, you edited old_lesson.py.
+# On main, you edited old_lesson.py.
 
-You run:
+# You run:
 
-git merge feature/cleanup
+# git merge feature/cleanup
 
-Question:
-What options does Git give, and how do you resolve?
+# Question:
+# What options does Git give, and how do you resolve?
 
-c. Conflict during git pull
+# c. Conflict during git pull
 
-Scenario:
-You run:
+# Scenario:
+# You run:
 
-git pull
+# git pull
 
-and Git reports a conflict in lesson_exercises.py.
+# and Git reports a conflict in lesson_exercises.py.
 
-Question:
-What is the correct sequence to handle it?
+# Question:
+# What is the correct sequence to handle it?
 
-d. Adjacent lines conflict
+# d. Adjacent lines conflict
 
-Scenario:
-Two branches modified adjacent lines in loops.py. Git reports a conflict.
+# Scenario:
+# Two branches modified adjacent lines in loops.py. Git reports a conflict.
 
-Question:
-How do you resolve adjacent line conflicts safely?
+# Question:
+# How do you resolve adjacent line conflicts safely?
