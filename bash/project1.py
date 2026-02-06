@@ -1,4 +1,6 @@
-# This project1 is ready for those who have learned lesson1.py, lesson2.py, exercises1.py and exercises2.py.
+# *Instruction:
+
+# This project1 is ready for those who have learned bash lesson1.py, lesson2.py, exercises1.py and exercises2.py.
 
 # Mini Project: Workplace Dev Environment Setup
 # Scenario

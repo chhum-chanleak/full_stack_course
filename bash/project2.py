@@ -1,4 +1,4 @@
-# This project2 is ready for those who have learned lesson3.py, lesson4.py, exercises3.py and exercises4.py.
+# This project2 is ready for those who have learned bash lesson3.py, lesson4.py, exercises3.py and exercises4.py.
 
 # Workplace Bash Project: Dev Workspace + Logs
 # Scenario

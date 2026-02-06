@@ -1,3 +1,5 @@
+# *Instruction:
+
 # This project1 is ready for those who have learned git lesson1.py, lesson2.py, exercises1.py and exercises2.py.
 
 # *Git Workplace Simulation Project
