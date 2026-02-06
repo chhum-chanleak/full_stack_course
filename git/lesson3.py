@@ -250,7 +250,7 @@
 
 # Your job → choose or combine
 
-# 3. The universal conflict-resolution workflow
+# ii. The universal conflict-resolution workflow
 
 # Run merge (conflict occurs)
 
@@ -267,7 +267,7 @@
 # git add .
 # git commit
 
-# 4. Four concrete conflict examples
+# iii. Four concrete conflict examples
 # Example 1: Same line edited differently
 
 # Situation:
@@ -330,7 +330,7 @@
 
 # Conflict appears.
 
-# 4. git pull
+# 5. git pull
 # i. "git pull" brings changes from a remote repository into your local branch.
 
 # Under the hood, it does two steps:
