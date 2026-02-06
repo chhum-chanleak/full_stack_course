@@ -144,3 +144,18 @@
 
 # Question:
 # How do you resolve adjacent line conflicts safely?
+
+# 5. git pull
+# i. Why do we use "git pull"?
+
+# a. Basic git pull
+# Task: You and a teammate are working on the same repository. Your teammate pushed new changes to the main branch. Update your local repository with these changes.
+
+# b. git pull with rebase
+# Task: You have local commits on feature/login. Before pushing, pull the latest remote changes and rebase your commits on top of them to avoid a merge commit.
+
+# c. Handling merge conflicts during git pull
+# Task: You run git pull and encounter a merge conflict. Describe how to resolve it and complete the pull.
+
+# d. Pulling a specific branch
+# Task: The remote repository has a branch called feature/dashboard. Pull its latest changes without switching branches.
