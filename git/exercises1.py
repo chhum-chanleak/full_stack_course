@@ -4,7 +4,7 @@
 
 # 2. git config
 # i. What is "git config" it?
-# ii. 
+# ii. Why do we use it?
 
 # a.
 # Question:
