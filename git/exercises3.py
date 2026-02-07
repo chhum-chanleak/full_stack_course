@@ -61,7 +61,7 @@
 # What is the correct command sequence?
 
 # 3. git merge
-# i. Why do we use "git merch"?
+# i. Why do we use "git merge"?
 
 # a. Basic branch merge
 
