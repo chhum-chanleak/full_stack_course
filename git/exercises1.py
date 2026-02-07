@@ -2,6 +2,8 @@
 # i. What is "Git"?
 # ii. Why do we use it?
 
+# 2. Please describe git's workflow(cycle)?
+
 # 3. git config
 # i. What is "git config" it?
 # ii. Why do we use it?
