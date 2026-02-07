@@ -2,7 +2,7 @@
 # i. What is "Git"?
 # ii. Why do we use it?
 
-# 2. git config
+# 3. git config
 # i. What is "git config" it?
 # ii. Why do we use it?
 
@@ -27,9 +27,9 @@
 # Typing git status feels repetitive. You want to shorten it to git st.
 # How do you configure this, and how do you use it?
 
-# 3. Git config scopes — what is the priority order?
+# 4. Git config scopes — what is the priority order?
 
-# 4. git init
+# 5. git init
 # i. Initializing a Repository in an Existing Directory
 
 # a.
@@ -55,7 +55,7 @@
 # Question:
 # How do you confirm?
 
-# 5. git clone
+# 6. git clone
 # i. Why do we use it?
 # ii. Please show syntax of "git clone"
 
