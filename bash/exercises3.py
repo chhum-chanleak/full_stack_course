@@ -17,26 +17,35 @@
 # 2. cat
 # i. What does "cat" stand for?
 # ii. Why do we use it?
-# i. "cat" stands for "concatenate".
-# ii. We use it to :
 
 # a.
-# Task: Show the contents of notes.txt on the terminal.
+# Do these first:
+#   1. Create colors.txt
+#   2. Write "red, green, blue" in colors.txt
+
+# Task: View a colors.txt
 
 # b.
-# Task: Display a.txt and b.txt one after another.
+# Do these first:
+#     1. Create fruits.txt
+#     2. Write "apple, banana, cherry" in fruits.txt
+
+# Task: View colors.txt and fruits.txt files together
 
 # c.
-# Task: Create a file called todo.txt and type content into it.
+# Do these first:
+#     1. Create days.txt
+#     2. Write "Monday"
+#              "Tuesday"
+#              "Wednesday" in days.txt (3 lines in total).
+
+# Task: Display a file with line numbers
 
 # d.
-# Task: Append the contents of part2.txt to the end of main.txt.
+# Task: Create file.md using cat > then write "Hello, world!" in it and view file.md.
 
-# e.
-# Task: Use "ls >" to create a list.txt file and overwrite content of house/ to list.txt
-
-# f.
-# Task: Append the contents of house directory to the end of main.txt.
+# e. 
+# Task: Append "Hello, again" to file.md using cat >> and view file.md.
 
 # 3. > (overwrite) vs >> (append)
 # i. What does ">" do?
