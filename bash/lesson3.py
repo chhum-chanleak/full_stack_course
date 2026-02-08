@@ -44,11 +44,7 @@
 
 # 2. cat
 # i. "cat" stands for "concatenate".
-# ii. We use it to:.
-#   1. View content of files. (cat filename.txt)
-#   2. Create files with content 
-#       or overwrite content of an existing file with new content. (> (overwrite))
-#   3. Append/Add content to existing files. (>> (append))
+# ii. We use it to view content of files. (cat filename.txt)
 
 # What cat does
 
