@@ -124,75 +124,48 @@
 
 # >> = add to the end
 
-# Example 1: Create a file with overwrite
+# Example 1) pwd → current directory
 
-# Task: Create file1.txt and write “Hello World”.
+# Overwrite
+# pwd > dir.txt
+# dir.txt now contains the path of the current directory, e.g.:
+# /home/user/projects
 
-# cat > file1.txt
+# Append
+# pwd >> dir.txt
+# dir.txt now contains:
+# /home/user/projects
+# /home/user/projects
 
-# Hello World
+# Example 2) date → timestamp logging
 
-# Ctrl + D
+# Overwrite
+# date > timestamp.txt
+# timestamp.txt contains only the current date/time
 
-# Result:
+# Append
+# date >> timestamp.txt
+# timestamp.txt now has the old timestamp + new one
 
-# file1.txt contains only:
+# Example 3) ls → directory listing
 
-# Hello World
+# Overwrite
+# ls > dirlist.txt
+# dirlist.txt has current directory contents only
 
-# If file1.txt already existed, its old content is gone.
+# Append
+# ls >> dirlist.txt
+# dirlist.txt now has old list + new listing
 
-# Example 2: Overwrite an existing file
+# Example 4) cat → combine files
 
-# Task: Replace content of file1.txt with “New Content”.
+# Overwrite
+# cat file1.txt > combined.txt
+# combined.txt contains only file1.txt content
 
-# cat > file1.txt
-
-# New Content
-
-# Ctrl + D
-
-# Result:
-
-# New Content
-
-# Old content (“Hello World”) is deleted.
-
-# Example 3: Append to an existing file
-
-# Task: Add “Second Line” to file1.txt without removing existing content.
-
-# cat >> file1.txt
-
-# Second Line
-
-# Ctrl + D
-
-# Result:
-
-# New Content
-
-# Second Line
-
-# Original content remains; new content added at the bottom.
-
-# Example 4: Combine multiple files with append
-
-# Task: Append contents of part2.txt to main.txt.
-
-# cat part2.txt >> main.txt
-
-# Result:
-
-# main.txt now contains its original content plus everything from part2.txt at the end.
-
-# Important: Using > here instead would replace main.txt completely with part2.txt.
-
-# Quick Mental Shortcut
-
-# > → “wipe and write”
-
-# >> → “keep what’s there, add this at the end”
+# Append
+# cat file2.txt >> combined.txt
+# combined.txt now has file1.txt + file2.txt
 
 # 4. less
 # i. less lets you read text one screen at a time and move around easily.
