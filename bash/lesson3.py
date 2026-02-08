@@ -78,37 +78,42 @@
 
 # Contents are shown one after another
 
-# Example 3: Create a file using cat
+# Example 3) Display a file with line numbers
 
-# Task: Create a file called todo.txt.
+# cat -n notes.txt
+
+# Output:
+
+# 1  Line 1: Buy milk
+# 2  Line 2: Call Alice
+# 3  Line 3: Finish homework
+
+# Example: Create a file with cat >
+
+# Step 1: Run the command
 
 # cat > todo.txt
 
-# Type your text, then press:
+# Step 2: Type your content
 
-# Ctrl + D
+# Buy milk
+# Call Alice
+# Finish homework
 
-# Saves the file
+# Step 3: Save and exit
+# Press Ctrl + D (one or two times).
 
-# *Overwrites existing file
+# Example 5: Append text to a file using cat
 
-# Example 4: Append one file to another
+# cat >> todo.txt
 
-# Task: Append part2.txt to the end of main.txt.
+# Type your text:
+# Buy groceries
+# Call Alice
 
-# cat part2.txt >> main.txt
+# Press Ctrl + D (one or two times) to save
 
-# Combines files
-
-# Keeps existing content in main.txt
-
-# *Important Tips
-
-# For large files, use less instead of cat
-
-# Use cat -n file.txt to show line numbers
-
-# Be careful with > (overwrite) vs >> (append)
+# todo.txt now contains the old content + the new lines you just typed
 
 # 3. > (overwrite) vs >> (append)
 
