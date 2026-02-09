@@ -210,3 +210,121 @@
 # $? captures the exit code of grep
 
 # 0 → string found, non-zero → string not found
+
+# 4. Basic scripts
+
+# i. A basic Bash script is:
+
+# A file containing Bash commands
+
+# Executed top-to-bottom
+
+# Driven by exit codes, not magic
+
+# Minimum structure:
+
+# #!/bin/bash
+# commands...
+
+# ii. Why we use basic Bash scripts?
+
+# a. Automation
+
+# Turn repeated manual commands into a single action
+
+# Save time and reduce effort
+
+# b. Preventing mistakes
+
+# Enforce correct order of operations
+
+# Stop execution when a critical step fails
+
+# Reduce risk of running commands in the wrong place
+
+# c. Encoding logic
+
+# Store decisions and conditions in code instead of memory
+
+# Let exit codes drive behavior
+
+# d. Reproducibility
+
+# Same script → same behavior every time
+
+# Acts as automation + documentation
+
+# e. Glue between tools
+
+# Combine small Unix tools into a workflow
+
+# Pipe and chain commands together
+
+# f. Scalability
+
+# Basic scripts naturally grow into:
+
+# build scripts
+
+# backup scripts
+
+# deployment scripts
+
+# monitoring scripts
+
+# Example 1: Minimal script (structure)
+
+# #!/bin/bash
+# echo "Hello from Bash"
+
+# What this teaches:
+
+# Script structure
+
+# echo prints output
+
+# Script exits with 0 if nothing fails
+
+# How to run:
+
+# chmod +x hello.sh
+# ./hello.sh
+
+# Example 2: Basic automation
+
+# #!/bin/bash
+# mkdir logs
+# echo "Logs directory ready"
+
+# What this teaches:
+
+# Scripts remove repeated typing
+
+# Commands run sequentially
+
+# Example 3: Using exit codes for logic
+
+# #!/bin/bash
+# mkdir backup && echo "Backup created" || echo "Backup already exists"
+
+# What this teaches:
+
+# Commands return exit codes
+
+# && and || act like simple if / else
+
+# Logic is driven by success or failure
+
+# Example 4: Guarding against failure (very important)
+
+# #!/bin/bash
+# cd project || exit 1
+# echo "Now inside project directory"
+
+# What this teaches:
+
+# Guard pattern
+
+# Script stops if a critical step fails
+
+# Prevents dangerous mistakes
