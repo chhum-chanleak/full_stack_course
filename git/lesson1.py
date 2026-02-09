@@ -2,7 +2,7 @@
 
 # 1. Git
 # i. Git is a Version Control System(VCS).
-# ii. Git is a tool that records snapshots of your project over time, so you can go back, compare, and collaborate safely.
+# ii. Git is a tool that tracks changes of the project over time. It allows multiple users to collaborate, view history of changes and go back to any certain point in that history
 
 # Example 1
 
