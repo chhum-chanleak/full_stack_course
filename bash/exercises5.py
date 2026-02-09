@@ -115,3 +115,50 @@
 # Script failed!
 
 # only if it failed. Write the Bash command using ||.
+
+# 4. Basic scripts
+
+# i. What is a basic script?
+# ii. Why do we use basic Bash scripts?
+
+# a. Script structure
+
+# Create a Bash script that prints:
+
+# Learning Bash
+
+# Requirements:
+
+# Include the correct shebang
+
+# Use echo
+
+# b. Simple automation
+
+# Write a script that:
+
+# Creates a directory called data
+
+# Prints Data directory ready
+
+# (No conditionals yet.)
+
+# c. Exit-code based logic
+
+# Write a script that:
+
+# Tries to create a directory called backup
+
+# Prints Backup created if successful
+
+# Prints Backup already exists if it fails
+
+# d. Guard pattern
+
+# Write a script that:
+
+# Changes into a directory called project
+
+# If that fails, stop the script immediately
+
+# If successful, print Inside project
