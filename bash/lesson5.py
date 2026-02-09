@@ -122,3 +122,39 @@
 
 # Rule:
 # Quotes prevent wildcard expansion.
+
+# 2. Logical operators (&& / ||)
+
+# Example 1: && (AND)
+
+# mkdir new_folder && echo "Folder created successfully"
+
+# If mkdir new_folder succeeds → prints message
+
+# If folder already exists → no message
+
+# Example 2: || (OR)
+
+# mkdir new_folder || echo "Folder already exists"
+
+# If mkdir fails (folder exists) → prints message
+
+# If mkdir succeeds → does not print
+
+# Example 3: Combining && and ||
+
+# mkdir project && echo "Created" || echo "Failed"
+
+# If mkdir project succeeds → prints Created
+
+# If mkdir project fails → prints Failed
+
+# Warning: Be careful: this behaves differently in complex cases because echo "Created" can succeed, preventing || from running. Sometimes parentheses are needed.
+
+# Example 4: Using with commands that might fail
+
+# grep "hello" file.txt && echo "Found" || echo "Not found"
+
+# If file.txt exists and contains "hello" → prints Found
+
+# If not found → prints Not found
