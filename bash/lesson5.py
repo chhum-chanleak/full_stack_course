@@ -158,3 +158,55 @@
 # If file.txt exists and contains "hello" → prints Found
 
 # If not found → prints Not found
+
+# 3. Exit codes or return value
+
+# i. What are exit codes?
+
+# Every command in Bash returns a number when it finishes — this is called the exit code.
+
+# Convention:
+
+# 0 → success
+
+# Non-zero → failure (different numbers can indicate different types of errors)
+
+# $? → special variable that holds the exit code of the last command
+
+# ii. Why exit codes matter?
+
+# They tell Bash whether a command succeeded or failed.
+
+# && and || rely on exit codes.
+
+# Scripts use exit codes for conditional execution and error handling.
+
+# Example 1: Checking success
+
+# mkdir my_folder
+# echo $?   # prints 0 if folder created, non-zero if it failed
+
+# Example 2: Using &&
+
+# mkdir new_dir && echo "Created successfully"
+
+# echo runs only if mkdir succeeded (exit code 0)
+
+# Example 3: Using ||
+
+# mkdir existing_dir || echo "Directory already exists"
+
+# echo runs only if mkdir failed (exit code ≠ 0)
+
+# Example 4: In scripts with conditional checks
+
+# grep "hello" file.txt
+# if [ $? -eq 0 ]; then
+#     echo "Found 'hello'"
+# else
+#     echo "Did not find 'hello'"
+# fi
+
+# $? captures the exit code of grep
+
+# 0 → string found, non-zero → string not found
