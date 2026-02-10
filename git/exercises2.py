@@ -46,12 +46,12 @@
 # a. Stage one file
 
 # Task:
-# You edited app.js. Stage only that file.
+# Create app.js. Stage only that file.
 
 # b. Stage multiple files
 
 # Task:
-# Stage index.html and style.css only.
+# Create index.html and style.css, then stage only both of them.
 
 # c. Stage everything
 
