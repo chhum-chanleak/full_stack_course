@@ -1,7 +1,7 @@
 #git0i
 
 # 1. git status
-# i. Why do we use "git" status?
+# i. Why do we use "git status"?
 
 # a. Clean working directory
 
