@@ -69,19 +69,21 @@
 # i. Why do we use "git commit"?
 
 # a. Basic commit
+# Task:
 # You created two new files: index.html and style.css.
 # You want to commit both with a proper first commit message.
 
 # What commands do you run?
 
 # b. Commit a single file change
-# You fixed a typo in README.md.
-# You don’t want to commit any other changes.
+# Task:
+# You created two files: newspaper.md and book.md
+# But you want to commit book.md only.
 
 # What commands do you run?
 
 # c: Identify a bad commit message
-
+# Task:
 # Which commit message is better, and why?
 
 # A)
@@ -93,7 +95,7 @@
 # Add validation for empty password field
 
 # d. Multi-file, single-purpose commit
-
+# Task:
 # You changed cart.js and checkout.js to fix a total price calculation bug.
 
 # What command do you run, and what is a good commit message?
@@ -123,7 +125,7 @@
 # Task:
 # Find all commits that changed index.html.
 
-# git0l
+#git0l
 
 # 6. git diff
 # i. Why do we use git diff?
