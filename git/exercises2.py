@@ -17,13 +17,11 @@
 
 # Do the following and explain each step:
 
-# 1. Create file1.txt
-# 2. Type "git status" and observe the result.
-# 3. Add/stage file1.txt
+# 1. Add content to file0.txt
+# 2. Add/stage file0.txt
+# 3. Type "git status" and observe the result.
 # 4. Commit
 # 5. Type "git status" and observe the result.
-# 6. Edit file1.txt but do not stage it.
-# 7. Type "git status" and observe the result.
 
 # c. Staged file
 
