@@ -18,8 +18,8 @@
 # Do the following and explain each step:
 
 # 1. Add content to file0.txt
-# 2. Add/stage file0.txt
-# 3. Type "git status" and observe the result.
+# 2. Type "git status" and observe the result.
+# 3. Add/stage file0.txt
 # 4. Commit
 # 5. Type "git status" and observe the result.
 
