@@ -28,9 +28,8 @@
 # Do the following and explain each step:
 
 # 1. Create file2.txt
-# 2. Type "git status"
-# 3. Add/stage file2.txt after editing:
-# 4. Type "git status" and observe the result.
+# 2. Add/stage file2.txt
+# 3. Type "git status" and observe the result.
 
 # d. Untracked file
 
