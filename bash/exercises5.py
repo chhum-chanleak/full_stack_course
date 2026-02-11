@@ -1,7 +1,23 @@
 # 1. Quoting
 # i. Please explain what "Quoting" is in bash.
 
-# a. Double quotes
+# a.
+# You run the following in Bash:
+
+# name=Hello World
+# echo $name
+
+# Questions:
+
+# 1. What happens?
+
+# 2. Why does it happen?
+
+# 3. How do you fix it correctly?
+
+# 4. What rule of Bash explains this behavior?
+
+# b. Double quotes
 
 # Suppose you have:
 
@@ -12,14 +28,14 @@
 
 # Hello World
 
-# b. Single quotes
+# c. Single quotes
 
 # What will this output? Explain why:
 
 # fruit=apple
 # echo 'I have an $fruit'
 
-# c. Prevent globbing
+# d. Prevent globbing
 
 # You are in a folder with files:
 
@@ -28,19 +44,6 @@
 # Write a command that literally prints:
 
 # *.txt
-
-# d. Combining quotes
-
-# You want to assign this string to a variable exactly as shown, including quotes and $ signs:
-
-# The price is $5
-
-# Write a Bash assignment using quotes so that:
-
-# echo price
-
-# outputs exactly:
-# The price is $5
 
 # 2. Logical operators (&& / ||)
 # i. && runs the next command only if the previous one succeeded.
