@@ -1,3 +1,103 @@
+# 2. Wildcards
+# i. Wildcards are characters that trigger globbing (matching filenames).
+
+# Wildcard	Meaning:
+
+# *	Matches 0 or more characters
+
+# ?	Matches exactly 1 character
+
+# [ ]	Matches exactly 1 character from a set or range
+
+# 1. Asterisk * — match 0 or more characters
+
+# Example 1 — List all .txt files:
+
+# Files:
+
+# report1.txt  report2.txt  summary.txt  notes.doc
+
+# Command:
+
+# ls *.txt
+
+# Matches: report1.txt report2.txt summary.txt
+
+# * matches any number of characters.
+
+# Example 2 — List all files starting with data:
+
+# Files:
+
+# data1.csv  data2.csv  data10.csv  data_final.doc
+
+# Command:
+
+# ls data*
+
+# Matches: data1.csv data2.csv data10.csv data_final.doc
+
+# Matches everything starting with data.
+
+# 2. Question mark ? — match exactly one character
+
+# Example 3 — Match single-character suffix before .csv:
+
+# Files:
+
+# data1.csv  data2.csv  data10.csv  dataX.csv
+
+# Command:
+
+# ls data?.csv
+
+# Matches: data1.csv data2.csv dataX.csv
+
+# Ignores data10.csv (two characters → doesn’t match ?).
+
+# Example 4 — Match files like logA.log or logB.log:
+
+# Files:
+
+# log1.log  log2.log  logA.log  logB.log  logAB.log
+
+# Command:
+
+# ls log?.log
+
+# Matches: log1.log log2.log logA.log logB.log
+
+# Ignores logAB.log (too many characters).
+
+# 3. Brackets [ ] — match one character from a set or range
+
+# Example 5 — Match specific characters:
+
+# Files:
+
+# img1.png  img2.png  imgA.png  imgB.png  imgC.png
+
+# Command:
+
+# ls img[12AB].png
+
+# Matches: img1.png img2.png imgA.png imgB.png
+
+# [12AB] matches exactly one character from the set.
+
+# Example 6 — Match a range of characters:
+
+# Files:
+
+# filea.txt  fileb.txt  filec.txt  filed.txt
+
+# Command:
+
+# ls file[a-c].txt
+
+# Matches: filea.txt fileb.txt filec.txt
+
+# [a-c] matches any single character from a to c.
 
 # 3. Quoting
 # i. In Bash, quoting controls how the shell interprets text.
