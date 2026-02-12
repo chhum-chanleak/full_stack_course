@@ -1,3 +1,43 @@
+# 1. Brace expansion
+
+# i. What is brace expansion?
+
+# a. Simple list of strings
+
+# Files in your directory (or just imaginary):
+
+# fileA.txt fileB.txt fileC.txt
+
+# Task:
+# Write a command using brace expansion to echo all filenames.
+
+# b. Numeric range
+
+# Files:
+
+# file1.txt file2.txt file3.txt file4.txt file5.txt
+
+# Task:
+# Write a command using brace expansion to echo files numbered from 1 to 5.
+
+# c. Combining letters and numbers
+
+# Files:
+
+# fileA1.txt fileA2.txt fileB1.txt fileB2.txt
+
+# Task:
+# Write a command using nested braces to echo all combinations of letters A,B and numbers 1,2.
+
+# d. Brace expansion with wildcards
+
+# Files in the directory:
+
+# file1.txt file2.txt fileA.txt fileB.txt fileC.txt
+
+# Task:
+# Write a command using brace expansion combined with a wildcard to list files starting with file1 or fileA ending in .txt.
+
 # 2. Wildcards
 # i. Why do we use them?
 # ii. Name them.
