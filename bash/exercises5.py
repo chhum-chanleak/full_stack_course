@@ -143,7 +143,7 @@
 
 # *.txt
 
-# 4. Exit code or return value
+# 4. Exit code (return value)
 
 # i. What are exit codes?
 # ii. Why exit codes matter?

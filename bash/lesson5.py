@@ -285,7 +285,7 @@
 # Rule:
 # Quotes prevent wildcard expansion.
 
-# 4. Exit codes or return value
+# 4. Exit codes (return value)
 
 # i. What are exit codes?
 
