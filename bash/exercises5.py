@@ -180,8 +180,8 @@
 # only if it failed. Write the Bash command using ||.
 
 # 5. Logical operators (&& / ||)
-# i. && runs the next command only if the previous one succeeded.
-# ii. || runs the next command only if the previous one failed.
+# i. When does && run the next command in Bash?
+# ii. When does || run the next command in Bash?
 
 # a.
 # Create a directory called test_dir. If it succeeds, print:

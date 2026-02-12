@@ -338,6 +338,8 @@
 # 0 → string found, non-zero → string not found
 
 # 5. Logical operators (&& / ||)
+# i. && runs the next command only if the previous one succeeded.
+# ii. || runs the next command only if the previous one failed.
 
 # Example 1: && (AND)
 
