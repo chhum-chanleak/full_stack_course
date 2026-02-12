@@ -1,3 +1,71 @@
+# 1. Brace expansion
+# i. Brace expansion is a feature in Bash (and other shells like Zsh) that allows you to generate multiple strings from a pattern quickly.
+
+# . It happens before globbing/wildcards.
+# . It’s purely a text expansion, meaning it doesn’t care whether files actually exist.
+
+# Example 1 — Simple list of strings
+
+# echo file{A,B,C}.txt
+
+# Output:
+
+# fileA.txt fileB.txt fileC.txt
+
+# Explanation:
+
+# {A,B,C} expands into 3 separate strings
+
+# Resulting command: echo fileA.txt fileB.txt fileC.txt
+
+# Example 2 — Numeric range
+
+# echo file{1..5}.txt
+
+# Output:
+
+# file1.txt file2.txt file3.txt file4.txt file5.txt
+
+# Explanation:
+
+# {1..5} expands into all integers from 1 to 5
+
+# Very useful for generating numbered filenames.
+
+# Example 3 — Combining letters and numbers
+
+# echo file{A,B}{1,2}.txt
+
+# Output:
+
+# fileA1.txt fileA2.txt fileB1.txt fileB2.txt
+
+# Explanation:
+
+# Brace expansion is cartesian — every combination of the sets is generated
+
+# You can nest multiple braces for complex patterns.
+
+# Example 4 — Brace expansion with wildcards
+
+# Files in the directory:
+
+# file1.txt  file2.txt  fileA.txt  fileB.txt  fileC.txt
+
+# Command:
+
+# ls file{1,A}*.txt
+
+# Step 1 (brace expansion): file1*.txt fileA*.txt
+
+# Step 2 (globbing): matches actual files → file1.txt fileA.txt
+
+# Explanation:
+
+# Combines brace expansion + wildcards
+
+# Generates multiple file patterns quickly without typing each manually.
+
 # 2. Wildcards
 # i. Wildcards are characters that trigger globbing (matching filenames).
 # ii. These wildcards are *, ?, and [].
