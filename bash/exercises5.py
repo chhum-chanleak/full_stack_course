@@ -143,7 +143,43 @@
 
 # *.txt
 
-# 4. Logical operators (&& / ||)
+# 4. Exit code or return value
+
+# i. What are exit codes?
+# ii. Why exit codes matter?
+
+# a.
+# You run this command:
+
+# mkdir my_folder
+
+# How can you check whether it succeeded or failed immediately after running it?
+
+# b.
+# Predict the exit code:
+
+# ls existing_file.txt
+# echo $?
+
+# What will $? print if the file exists?
+
+# What if the file does not exist?
+
+# c.
+# You want to run a command only if the previous command succeeded. Which operator would you use?
+
+# command1 ??? command2
+
+# Fill in ??? to achieve this behavior.
+
+# d.
+# You run a script that returns a non-zero exit code. You want to print:
+
+# Script failed!
+
+# only if it failed. Write the Bash command using ||.
+
+# 5. Logical operators (&& / ||)
 # i. && runs the next command only if the previous one succeeded.
 # ii. || runs the next command only if the previous one failed.
 
@@ -180,42 +216,6 @@
 # If it does not exist, print File missing!
 
 # Hint: Use ls data.txt to check.
-
-# 5. Exit code or return value
-
-# i. What are exit codes?
-# ii. Why exit codes matter?
-
-# a.
-# You run this command:
-
-# mkdir my_folder
-
-# How can you check whether it succeeded or failed immediately after running it?
-
-# b.
-# Predict the exit code:
-
-# ls existing_file.txt
-# echo $?
-
-# What will $? print if the file exists?
-
-# What if the file does not exist?
-
-# c.
-# You want to run a command only if the previous command succeeded. Which operator would you use?
-
-# command1 ??? command2
-
-# Fill in ??? to achieve this behavior.
-
-# d.
-# You run a script that returns a non-zero exit code. You want to print:
-
-# Script failed!
-
-# only if it failed. Write the Bash command using ||.
 
 # 6. Basic scripts
 
