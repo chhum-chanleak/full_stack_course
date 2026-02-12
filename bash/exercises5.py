@@ -1,4 +1,62 @@
-# 1. Quoting
+# 2. Wildcards
+# i. Why do we use them?
+# ii. Name them.
+
+# a. Asterisk *
+
+# Files in your directory:
+
+# report1.txt  report2.txt  summary.txt  notes.doc
+
+# Task:
+# Write a command using * to list all .txt files.
+
+# b. Asterisk *
+
+# Files:
+
+# data1.csv  data2.csv  data10.csv  data_final.doc
+
+# Task:
+# Write a command using * to list all files starting with data.
+
+# c. Question mark ?
+
+# Files:
+
+# data1.csv  data2.csv  data10.csv  dataX.csv
+
+# Task:
+# Write a command using ? to list files with exactly one character after data before .csv.
+
+# d. Question mark ?
+
+# Files:
+
+# log1.log  log2.log  logA.log  logB.log  logAB.log
+
+# Task:
+# Write a command using ? to list files like logA.log or logB.log, but not logAB.log.
+
+# e. Brackets [ ]
+
+# Files:
+
+# img1.png  img2.png  imgA.png  imgB.png  imgC.png
+
+# Task:
+# Write a command using [ ] to list files ending with 1, 2, A, or B.
+
+# f. Brackets [ ] (range)
+
+# Files:
+
+# filea.txt  fileb.txt  filec.txt  filed.txt
+
+# Task:
+# Write a command using [ ] to list files ending with a to c.
+
+# 3. Quoting
 # i. Please explain what "Quoting" is in bash.
 
 # a.
@@ -45,7 +103,7 @@
 
 # *.txt
 
-# 2. Logical operators (&& / ||)
+# 4. Logical operators (&& / ||)
 # i. && runs the next command only if the previous one succeeded.
 # ii. || runs the next command only if the previous one failed.
 
@@ -83,7 +141,7 @@
 
 # Hint: Use ls data.txt to check.
 
-# 3. Exit code or return value
+# 5. Exit code or return value
 
 # i. What are exit codes?
 # ii. Why exit codes matter?
@@ -119,7 +177,7 @@
 
 # only if it failed. Write the Bash command using ||.
 
-# 4. Basic scripts
+# 6. Basic scripts
 
 # i. What is a basic script?
 # ii. Why do we use basic Bash scripts?
