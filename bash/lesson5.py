@@ -1,12 +1,5 @@
-# Quoting
 
-# && / ||
-
-# Exit codes (conceptual)
-
-# Tiny scripts
-
-# 1. Quoting
+# 3. Quoting
 # i. In Bash, quoting controls how the shell interprets text.
 
 # Example 1: No quotes (default behavior)
@@ -123,7 +116,7 @@
 # Rule:
 # Quotes prevent wildcard expansion.
 
-# 2. Logical operators (&& / ||)
+# 4. Logical operators (&& / ||)
 
 # Example 1: && (AND)
 
@@ -159,7 +152,7 @@
 
 # If not found → prints Not found
 
-# 3. Exit codes or return value
+# 5. Exit codes or return value
 
 # i. What are exit codes?
 
@@ -211,7 +204,7 @@
 
 # 0 → string found, non-zero → string not found
 
-# 4. Basic scripts
+# 6. Basic scripts
 
 # i. A basic Bash script is:
 
