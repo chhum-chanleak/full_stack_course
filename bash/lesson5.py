@@ -1,5 +1,6 @@
 # 2. Wildcards
 # i. Wildcards are characters that trigger globbing (matching filenames).
+# ii. These wildcards are *, ?, and [].
 
 # Wildcard	Meaning:
 
