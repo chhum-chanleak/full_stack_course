@@ -438,6 +438,10 @@
 
 # Example 1: Minimal script (structure)
 
+# Create hello.sh
+
+# Add the next two lines to hello.sh
+
 # #!/bin/bash
 # echo "Hello from Bash"
 
@@ -449,16 +453,39 @@
 
 # Script exits with 0 if nothing fails
 
-# How to run:
+# *Now invoke hello.sh by typing ./hello.sh (we include ./ because hello.sh is in the current directory)
+
+# You'll see "zsh: permission denied: ./hello.sh"
+
+# Because we have not made hello.sh executable. (Learn how to identify an executable file)
+
+# *Note: By default, new files in Linux/macOS are not executable.
+
+# To view mode of a file type: ls -l file_name
+
+# How to make a file executable:
 
 # chmod +x hello.sh
+
+# Run hello.sh
+
 # ./hello.sh
 
 # Example 2: Basic automation
 
+# Create make_logs.sh
+
+# Add the next three lines to make_logs.sh
+
 # #!/bin/bash
 # mkdir logs
-# echo "Logs directory ready"
+# echo "logs directory ready"
+
+# Make make_logs.sh executable
+
+# chmod +x make_logs.sh
+
+# Run make_backup.sh a few times. (Take time to observe each run)
 
 # What this teaches:
 
@@ -468,8 +495,18 @@
 
 # Example 3: Using exit codes for logic
 
+# Create make_backup.sh
+
+# Add the next two lines to make_backup.sh
+
 # #!/bin/bash
-# mkdir backup && echo "Backup created" || echo "Backup already exists"
+# mkdir backup && echo "backup created" || echo "backup already exists"
+
+# Make make_backup.sh executable
+
+# chmod +x make_backup.sh
+
+# Run make_backup.sh a few times. (Take time to observe each run)
 
 # What this teaches:
 
@@ -481,9 +518,19 @@
 
 # Example 4: Guarding against failure (very important)
 
+# Create move_to_project.sh
+
+# Add the next three lines to move_to_project.sh
+
 # #!/bin/bash
 # cd project || exit 1
 # echo "Now inside project directory"
+
+# Make move_to_project.sh executable
+
+# chmod +x move_to_project.sh
+
+# Run move_to_project.sh a few times. (Take time to observe each run)
 
 # What this teaches:
 

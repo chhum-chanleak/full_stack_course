@@ -219,14 +219,14 @@
 
 # 6. Basic scripts
 
-# i. What is a basic script?
-# ii. Why do we use basic Bash scripts?
+# i. What is a script?
+# ii. Why do we use Bash scripts?
 
 # a. Script structure
 
-# Create a Bash script that prints:
+# Create a Bash script file named say_learning_bash.sh that prints:
 
-# Learning Bash
+# "Learning Bash"
 
 # Requirements:
 
@@ -236,30 +236,30 @@
 
 # b. Simple automation
 
-# Write a script that:
+# Create a script file named mkdir_data.sh that:
 
 # Creates a directory called data
 
-# Prints Data directory ready
+# Prints "data directory ready"
 
 # (No conditionals yet.)
 
 # c. Exit-code based logic
 
-# Write a script that:
+# Create a script file named mkdir_backup.sh that:
 
 # Tries to create a directory called backup
 
-# Prints Backup created if successful
+# Prints "backup created" if successful
 
-# Prints Backup already exists if it fails
+# Prints "backup already exists" if it fails
 
-# d. Guard pattern
+# d. 
 
-# Write a script that:
+# Create a script file named cd_project.sh that:
 
 # Changes into a directory called project
 
 # If that fails, stop the script immediately
 
-# If successful, print Inside project
+# If successful, print "Inside project"
