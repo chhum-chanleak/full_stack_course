@@ -65,6 +65,7 @@
 
 # git0l
 
+
 # 3. git commit
 # i. Why do we use "git commit"?
 
@@ -96,9 +97,11 @@
 
 # d. Multi-file, single-purpose commit
 # Task:
-# You changed cart.js and checkout.js to fix a total price calculation bug.
+# You linked my_style.css to index.html.
+# Then you renamed my_style.css to style.css.
+# So you changed both my_style.css index.css.
 
-# What command do you run, and what is a good commit message?
+# What commands do you run, and what is a good commit message?
 
 #git0j
 
