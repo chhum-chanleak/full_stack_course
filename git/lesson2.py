@@ -211,7 +211,77 @@
 
 # This is common in teams and open-source projects.
 
-# 4. git diff
+# 4. git log
+# i. We use "git log" to view the commit history of the current branch (newest first).
+
+# Example 1 — Basic git log
+# git log
+
+# Output (simplified):
+
+# commit a3f5c1e2
+# Author: Alex
+# Date:   Mon Jan 15
+
+#     Fix login bug
+
+# commit 9b2d4c8a
+# Author: Alex
+# Date:   Sun Jan 14
+
+#     Initial commit
+
+# Meaning:
+
+# Shows commits in reverse chronological order
+
+# Each commit includes hash, author, date, and message
+
+# Example 2 — One-line log
+
+# git log --oneline
+
+# Output: k
+
+# a3f5c1e Fix login bug
+
+# 9b2d4c8 Initial commit
+
+# Meaning:
+
+# Compact view
+
+# Useful for quickly scanning history
+
+# Example 3 — Limit number of commits
+
+# git log -2
+
+# Output:
+
+# commit a3f5c1e2
+#     Fix login bug
+
+# commit 9b2d4c8a
+#     Initial commit
+
+# Meaning:
+
+# Shows only the last 2 commits
+
+# Example 4 — File-specific history
+
+# git log README.md
+
+# Meaning:
+
+# Shows only commits that modified README.md
+
+# Useful for tracking when and why a file changed
+
+# *Tracking and staging files
+
+# 5. git diff
 # i. git diff shows what has changed, line by line.
 
 # Think of it as:
@@ -309,73 +379,3 @@
 # Works with:
 
 # git diff --staged index.html
-
-# 5. git log
-# i. We use "git log" to view the commit history of the current branch (newest first).
-
-# Example 1 — Basic git log
-# git log
-
-# Output (simplified):
-
-# commit a3f5c1e2
-# Author: Alex
-# Date:   Mon Jan 15
-
-#     Fix login bug
-
-# commit 9b2d4c8a
-# Author: Alex
-# Date:   Sun Jan 14
-
-#     Initial commit
-
-# Meaning:
-
-# Shows commits in reverse chronological order
-
-# Each commit includes hash, author, date, and message
-
-# Example 2 — One-line log
-
-# git log --oneline
-
-# Output: k
-
-# a3f5c1e Fix login bug
-
-# 9b2d4c8 Initial commit
-
-# Meaning:
-
-# Compact view
-
-# Useful for quickly scanning history
-
-# Example 3 — Limit number of commits
-
-# git log -2
-
-# Output:
-
-# commit a3f5c1e2
-#     Fix login bug
-
-# commit 9b2d4c8a
-#     Initial commit
-
-# Meaning:
-
-# Shows only the last 2 commits
-
-# Example 4 — File-specific history
-
-# git log README.md
-
-# Meaning:
-
-# Shows only commits that modified README.md
-
-# Useful for tracking when and why a file changed
-
-# *Tracking and staging files
