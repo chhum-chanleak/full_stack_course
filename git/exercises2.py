@@ -102,7 +102,7 @@
 
 #git0j
 
-# 5. git log
+# 4. git log
 # i. Why do we use "git log"?
 
 # a. View commit history
@@ -127,7 +127,7 @@
 
 #git0l
 
-# 6. git diff
+# 5. git diff
 # i. Why do we use git diff?
 
 # a. Unstaged changes
