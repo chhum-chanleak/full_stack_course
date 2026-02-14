@@ -263,3 +263,30 @@
 # If that fails, stop the script immediately
 
 # If successful, print "Inside project"
+
+# 7. Make scripts inside each of these directories executable everywhere:
+
+# . Go to your home directory(~)
+# . Create one script file for each of following directories and make each script executable everywhere.
+
+# a. app
+
+# b. ban
+
+# c. che
+
+# d. dat
+
+# . It should be like this:
+
+# app/app.sh
+# ban/ban.sh
+# che/che.sh
+# dta/data.sh
+
+# . When run each script, it should look like this:
+
+# app.sh -> "Hello, app"
+# ban.sh -> "Hello, ban"
+# che.sh -> "Hello, che"
+# data.sh -> "Hello, data"
