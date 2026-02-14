@@ -125,25 +125,41 @@
 # Task:
 # Find all commits that changed index.html.
 
-#git0l
+# #git0l
 
 # 5. git diff
 # i. Why do we use git diff?
 
 # a. Unstaged changes
+
+# Create main.js, stage and commit it.
+
 # You edited main.js but have not run git add.
+
 # Which command shows what you changed?
 
 # b. Staged vs committed
-# You ran:
+
+# Create index.html, stage and commit
+
+# Edit index.html
+
 # git add index.html
+
 # but have not committed yet.
-# Which command shows exactly what will be committed?
+
+# Which command shows exactly what changes will be committed?
 
 # c. Compare two commits
+
 # You want to see the differences between commit a1b2c3 and commit d4e5f6.
+
 # Which command do you use?
 
 # d. Diff a single file
+
+# For example:
+
 # Several files were modified, but you only care about changes in style.css.
+
 # Which command do you run?

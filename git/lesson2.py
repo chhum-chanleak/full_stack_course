@@ -306,6 +306,8 @@
 
 # Situation
 
+# You created, staged, and committed app.js
+
 # You edited app.js but did NOT run git add.
 
 # git diff
@@ -324,7 +326,11 @@
 
 # Situation
 
-# You ran git add app.js, but haven’t committed yet.
+# You created bash.sh, then staged and committed it.
+
+# You edited bash.sh
+
+# You ran git add bash.sh, but haven’t committed yet.
 
 # git diff --staged
 
@@ -334,9 +340,7 @@
 
 # Changes between:
 
-# Staging area
-
-# Last commit
+# Staging area(index) and last commit(HEAD)
 
 # Use this before committing to double-check correctness.
 
