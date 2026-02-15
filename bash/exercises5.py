@@ -38,60 +38,62 @@
 # Task:
 # Write a command using brace expansion combined with a wildcard to list files starting with file1 or fileA ending in .txt.
 
+#lx0aa
+
 # 2. Wildcards
 # i. Why do we use them?
 # ii. Name them.
 
 # a. Asterisk *
 
-# Files in your directory:
+# Create these files in your directory:
 
-# report1.txt  report2.txt  summary.txt  notes.doc
+# report1.txt report2.txt summary.txt notes.doc
 
 # Task:
 # Write a command using * to list all .txt files.
 
 # b. Asterisk *
 
-# Files:
+# Create these files in your directory:
 
-# data1.csv  data2.csv  data10.csv  data_final.doc
+# data1.csv data2.csv data10.csv data_final.doc
 
 # Task:
 # Write a command using * to list all files starting with data.
 
 # c. Question mark ?
 
-# Files:
+# Create these files in your directory:
 
-# data1.csv  data2.csv  data10.csv  dataX.csv
+# data1.csv data2.csv data10.csv dataX.csv
 
 # Task:
-# Write a command using ? to list files with exactly one character after data before .csv.
+# Write a command using ? to list files with exactly one character after data and before .csv.
 
 # d. Question mark ?
 
-# Files:
+# Create these files in your directory:
 
-# log1.log  log2.log  logA.log  logB.log  logAB.log
+# log1.log log2.log logA.log logB.log logAB.log
 
 # Task:
-# Write a command using ? to list files like logA.log or logB.log, but not logAB.log.
+# Write a command using ? to list files like logA.log or logB.log, but not logAB.log
 
 # e. Brackets [ ]
 
-# Files:
+# Create these files in your directory:
 
-# img1.png  img2.png  imgA.png  imgB.png  imgC.png
+# img1.png img2.png imgA.png imgB.png imgC.png
 
 # Task:
-# Write a command using [ ] to list files ending with 1, 2, A, or B.
+# Write a command using [ ] to list files above which contain 1, 2, A, or B.
 
 # f. Brackets [ ] (range)
 
-# Files:
+# Create these files in your directory:
 
-# filea.txt  fileb.txt  filec.txt  filed.txt
+# filea.txt fileb.txt filec.txt filed.txt
 
 # Task:
 # Write a command using [ ] to list files ending with a to c.
