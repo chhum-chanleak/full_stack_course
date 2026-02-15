@@ -158,15 +158,15 @@
 
 # Files:
 
-# filea.txt  fileb.txt  filec.txt  filed.txt
+# fileA.txt  fileB.txt  fileC.txt  fileD.txt
 
 # Command:
 
-# ls file[a-c].txt
+# ls file[A-C].txt
 
-# Matches: filea.txt fileb.txt filec.txt
+# Matches: fileA.txt fileB.txt fileC.txt
 
-# [a-c] matches any single character from a to c.
+# [A-C] matches any single character from A to C.
 
 # 3. Quoting
 # i. In Bash, quoting controls how the shell interprets text.

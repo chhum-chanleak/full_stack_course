@@ -93,10 +93,10 @@
 
 # Create these files in your directory:
 
-# filea.txt fileb.txt filec.txt filed.txt
+# fileA.txt fileB.txt fileC.txt filed.txt
 
 # Task:
-# Write a command using [ ] to list files ending with a to c.
+# Write a command using [ ] to list files ending with A to C.
 
 # 3. Quoting
 # i. Please explain what "Quoting" is in bash.
