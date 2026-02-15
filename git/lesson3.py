@@ -38,6 +38,7 @@
 # You created a new branch feature/exercises:
 
 # git checkout -b feature/exercises
+# touch lesson_02.py
 # git add lesson_02.py
 # git commit -m "docs: add lesson 2 exercises"
 # git push -u origin feature/exercises
@@ -53,15 +54,6 @@
 # git push origin main --force
 
 # ⚠️ This can overwrite remote changes, so only do if you know no one else relies on this branch.
-
-# Example 4: Push tags
-
-# Tags are used for releases:
-
-# git tag v1.0
-# git push origin v1.0
-
-# Pushes the tag v1.0 to remote so others can reference this exact commit.
 
 # 2. git fetch
 # i. git fetch downloads updates from a remote repository but:
