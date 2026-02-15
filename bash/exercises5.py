@@ -186,6 +186,9 @@
 # ii. When does || run the next command in Bash?
 
 # a.
+
+# *Do the following but do not press Enter or run.
+
 # Create a directory called test_dir. If it succeeds, print:
 
 # Directory created!
@@ -193,7 +196,10 @@
 # Which operator should you use?
 
 # b.
-# Try to create a directory called existing_dir (assume it already exists). If creation fails, print:
+
+# Create a directory call existing_dir
+
+# Try to create it again (do not press Enter or run). If creation fails, print:
 
 # Directory already exists!
 
@@ -201,6 +207,8 @@
 
 # c.
 # Combine both operators in one line:
+
+# *Do the following but do not press Enter or run.
 
 # Create project_dir
 
@@ -211,13 +219,16 @@
 # Write the one-line command.
 
 # d.
-# You have a file data.txt.
 
-# If it exists, print File found!
+# Create a file data.txt.
 
-# If it does not exist, print File missing!
+# *Do the following but do not press Enter or run.
 
-# Hint: Use ls data.txt to check.
+# Use ls to search for data.txt
+
+# If it exists, print "File found!"
+
+# If it does not exist, print "File missing!"
 
 # 6. Basic scripts
 
