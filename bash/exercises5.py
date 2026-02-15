@@ -158,6 +158,11 @@
 # How can you check whether it succeeded or failed immediately after running it?
 
 # b.
+
+# Run this command:
+
+# touch existing_file.txt
+
 # Predict the exit code:
 
 # ls existing_file.txt
@@ -175,11 +180,12 @@
 # Fill in ??? to achieve this behavior.
 
 # d.
-# You run a script that returns a non-zero exit code. You want to print:
 
-# Script failed!
+# Assume you run a script that returns a non-zero exit code. You want to print:
 
-# only if it failed. Write the Bash command using ||.
+# "Script failed!"
+
+# Which logical operator would you use?
 
 # 5. Logical operators (&& / ||)
 # i. When does && run the next command in Bash?
