@@ -13,12 +13,6 @@
 
 # Question: What command pushes this branch and sets it to track the remote?
 
-# c. Force push
-
-# Scenario: You amended a commit on main (changed the message) and need to update the remote.
-
-# Question: What command will safely overwrite the remote branch?
-
 # 2. git fetch
 # i. Why do we use "git fetch"?
 
