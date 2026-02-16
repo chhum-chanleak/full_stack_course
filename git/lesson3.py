@@ -47,14 +47,6 @@
 
 # Remote now has a new branch with your commit.
 
-# Example 3: Force push (careful!)
-
-# Sometimes you rewrite history (like git commit --amend) and need to overwrite remote:
-
-# git push origin main --force
-
-# ⚠️ This can overwrite remote changes, so only do if you know no one else relies on this branch.
-
 # 2. git fetch
 # i. git fetch downloads updates from a remote repository but:
 # ❌ does NOT change your working directory
