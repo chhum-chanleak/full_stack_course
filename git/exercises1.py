@@ -11,12 +11,11 @@
 # a.
 # Question:
 # You just installed Git. You want all repositories to record your name as Alice Smith and your email as alice@example.com.
-
 # Which commands should you run?
 
 # b.
 # Question:
-# You want to see all current Git settings and verify that your name and email are correctly set.
+# You want to see all current Git settings and verify that your name and email are correctly set (you can use grep to search for only lines which contain name or email).
 # Which command do you use, and what should you look for in the output?
 
 # c.

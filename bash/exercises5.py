@@ -1,5 +1,3 @@
-# #lx0ab
-
 # 1. Brace expansion
 # i. What is brace expansion?
 
