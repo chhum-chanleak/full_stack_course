@@ -1,37 +1,38 @@
-# 1. Brace expansion
+# #lx0ab
 
+# 1. Brace expansion
 # i. What is brace expansion?
 
 # a. Simple list of strings
 
-# Files in your directory (or just imaginary):
+# Create the following files:
 
 # fileA.txt fileB.txt fileC.txt
 
 # Task:
-# Write a command using brace expansion to echo all filenames.
+# Write a command using brace expansion to echo filenames above.
 
 # b. Numeric range
 
-# Files:
+# Create the following files:
 
 # file1.txt file2.txt file3.txt file4.txt file5.txt
 
 # Task:
-# Write a command using brace expansion to echo files numbered from 1 to 5.
+# Write a command using brace expansion to echo filenames above.
 
 # c. Combining letters and numbers
 
-# Files:
+# Create the following files:
 
 # fileA1.txt fileA2.txt fileB1.txt fileB2.txt
 
 # Task:
-# Write a command using nested braces to echo all combinations of letters A,B and numbers 1,2.
+# Write a command using nested braces to echo files above.
 
 # d. Brace expansion with wildcards
 
-# Files in the directory:
+# Create the following files:
 
 # file1.txt file2.txt fileA.txt fileB.txt fileC.txt
 
