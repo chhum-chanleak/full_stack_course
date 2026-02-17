@@ -88,6 +88,9 @@
 # Task: Invert search "error" in logs.txt.
 
 # c.
+# Do this first:
+# Create file1.txt, file2.md, a.txt, and b.md.
+
 # Task: Use "grep" with pipe "|" to search for ".txt" files only.
 
 # d.
