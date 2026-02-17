@@ -539,3 +539,5 @@
 # Script stops if a critical step fails
 
 # Prevents dangerous mistakes
+
+# *Note: Observe your working directory(pwd) after running the script.

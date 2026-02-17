@@ -282,6 +282,8 @@
 
 # If successful, print "Inside project"
 
+# *Note: Observe your working directory(pwd) after running the script.
+
 # 7. Make scripts inside each of these directories executable everywhere:
 
 # . Go to your home directory(~)
