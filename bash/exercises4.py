@@ -95,3 +95,31 @@
 # printf "yes\nno\nYes\nyes\n" > answers.txt
 
 # Task: Case-insensitively search for lines that contain "yes" inside answers.txt
+
+# e.
+# Create files that have content like the following:
+
+# a.txt
+
+# dog
+# cat
+# bird
+
+# b.txt
+
+# fish
+# horse
+
+# c.txt
+
+# doghouse
+
+# Question:
+
+# If you run:
+
+# grep -l "dog" *.txt
+
+# What will be printed?
+
+# Take 20 seconds. Think carefully.

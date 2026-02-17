@@ -288,3 +288,36 @@
 # Lines containing "fail" are excluded
 
 # Only lines not matching "fail" are printed
+
+# Example 5:
+
+# "grep -l" prints only the names of files that contain a matching pattern. It does NOT print the matching lines.
+
+# Suppose we have three files:
+
+# file1.txt
+
+# apple
+# banana
+# orange
+
+# file2.txt
+
+# car
+# bike
+# train
+
+# file3.txt
+
+# apple pie
+# grape
+
+# Now run:
+
+# grep -l "apple" *.txt
+
+# Output:
+# file1.txt
+# file3.txt
+
+# It prints only the filenames that contain "apple".
