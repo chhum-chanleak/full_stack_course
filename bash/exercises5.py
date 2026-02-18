@@ -289,24 +289,19 @@
 # . Go to your home directory(~)
 # . Create one script file for each of following directories and make each script executable everywhere.
 
-# a. app
-
-# b. ban
-
-# c. che
-
-# d. dat
-
 # . It should be like this:
 
-# app/app.sh
-# ban/ban.sh
-# che/che.sh
-# dta/data.sh
+# a. app/app.sh
+
+# b. ban/ban.sh
+
+# c. che/che.sh
+
+# d. dat/dat.sh
 
 # . When run each script, it should look like this:
 
 # app.sh -> "Hello, app"
 # ban.sh -> "Hello, ban"
 # che.sh -> "Hello, che"
-# data.sh -> "Hello, data"
+# dat.sh -> "Hello, dat"
