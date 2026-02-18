@@ -130,13 +130,13 @@
 
 # Example 4 — Count characters
 
-# echo "apple" | wc -c
+# echo "apple" | wc -m
 
 # Step by step:
 
 # echo "apple" → outputs apple plus a newline character
 
-# wc -c → counts characters including newline
+# wc -m → counts characters including newline
 
 # Output: 6
 
