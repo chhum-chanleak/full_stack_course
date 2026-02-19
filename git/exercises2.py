@@ -58,13 +58,7 @@
 # Task:
 # Stage all changes in the repository.
 
-# d. Stage part of a file
-
-# Task:
-# Stage only some changes inside main.py.
-
 # git0l
-
 
 # 3. git commit
 # i. Why do we use "git commit"?

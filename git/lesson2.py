@@ -116,16 +116,6 @@
 
 # Use carefully — it stages everything.
 
-# Example 4 — Add parts of a file (interactive)
-
-# git add -p
-
-# Meaning:
-
-# Lets you stage changes chunk by chunk
-
-# Useful when one file contains unrelated changes
-
 # 3. git commit
 # i. A commit is a snapshot of your project at a moment in time:
 # . You edit files
