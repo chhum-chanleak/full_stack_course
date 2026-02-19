@@ -40,7 +40,7 @@
 
 # b.
 # Task: Count lines in book.txt 
-# *Note: "wc -l" counts "\n" not actual the number of lines in the file.
+# *Note: "wc -l" counts "\n" not the actual number of lines in the file.
 
 # c.
 # Task: Count words in book.txt
