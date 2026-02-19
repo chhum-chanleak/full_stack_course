@@ -53,8 +53,9 @@
 
 # a.
 # Do these first:
-# 1. Create files a.txt, b.md, and c.pdf
-# 2. Create directories named house, and room
+# 1. Create a directory called test and move inside it
+# 2. Create files a.txt, b.md, and c.pdf
+# 3. Create directories named house, and room
 
 # Task: Count how many files/directories are in your current directory using ls and a pipe.
 
