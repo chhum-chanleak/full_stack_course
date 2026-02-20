@@ -23,7 +23,7 @@
 #   1. Create colors.txt
 #   2. Write "red, green, blue" in colors.txt
 
-# Task: View a colors.txt
+# Task: View colors.txt
 
 # b.
 # Do these first:
@@ -39,13 +39,13 @@
 #              "Tuesday"
 #              "Wednesday" in days.txt (3 lines in total).
 
-# Task: Display a file with line numbers
+# Task: Display content of days.txt with line numbers
 
 # d.
-# Task: Create file.md using cat > then write "Hello, world!" in it and view file.md.
+# Task: Create file.md using "cat >"" then write "Hello, world!" in it (Press Ctrl + D two times to save) and view file.md.
 
 # e. 
-# Task: Append "Hello, again" to file.md using cat >> and view file.md.
+# Task: Append "Hello, again" to file.md using "cat >>" and view file.md.
 
 # 3. > (overwrite) vs >> (append)
 # i. What does ">" do?
