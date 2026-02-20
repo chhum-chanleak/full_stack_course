@@ -9,7 +9,7 @@
 
 # b. Pushing a new branch
 
-# Scenario: You created a branch feature/loops to add exercises. You committed loops_exercises.py.
+# Scenario: You created a branch feature to add exercises. You created, staged and committed loops_exercises.py.
 
 # Question: What command pushes this branch and sets it to track the remote?
 
