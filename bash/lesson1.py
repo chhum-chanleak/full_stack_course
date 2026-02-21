@@ -210,7 +210,41 @@
 
 # 8. Cursor movement (no selection)
 
-# For Windows OS
+# *For Linux (most desktop environments & editors)
+
+# Move left (character) — Left Arrow
+# Move right (character) — Right Arrow
+# Move up (line) — Up Arrow
+# Move down (line) — Down Arrow
+
+# Move one word left — Ctrl + Left Arrow
+# Move one word right — Ctrl + Right Arrow
+
+# Move to line start — Home
+# Move to line end — End
+
+# Move to document start — Ctrl + Home
+# Move to document end — Ctrl + End
+
+# (Note: In some terminals like GNOME Terminal, word movement may also work with Alt + B / Alt + F.)
+
+# *For macOS
+
+# Move left (character) — Left Arrow
+# Move right (character) — Right Arrow
+# Move up (line) — Up Arrow
+# Move down (line) — Down Arrow
+
+# Move one word left — Option (⌥) + Left Arrow
+# Move one word right — Option (⌥) + Right Arrow
+
+# Move to line start — Command (⌘) + Left Arrow
+# Move to line end — Command (⌘) + Right Arrow
+
+# Move to document start — Command (⌘) + Up Arrow
+# Move to document end — Command (⌘) + Down Arrow
+
+# *For Windows OS
 
 # Move left (character)	←
 # Move right (character)	→
