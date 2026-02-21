@@ -52,19 +52,76 @@
 # ii. What does ">>" do?
 
 # a.
-# Task: Create a file called greetings.txt and write the text:
-# Hello, World!
+# What happens if notes.txt already exists and you run:
+
+# echo "Hello" > notes.txt
+
+# A) “Hello” is added to the end
+# B) The old content is deleted and replaced
+# C) Command fails
 
 # b.
-# Task: greetings.txt already exists. Replace its content with:
-# Good Morning!
+# What happens if log.txt does NOT exist and you run:
+
+# date >> log.txt
+
+# A) Error
+# B) File is created and date is written
+# C) Nothing happens
 
 # c.
-# Task: Add a second line to greetings.txt that says:
-# How are you today?
+# You want to keep a running history of timestamps. Which operator should you use?
 
 # d.
-# Task: You have part1.txt and part2.txt. Append part2.txt to part1.txt.
+# You want to reset a file and start fresh. Which operator?
+
+# e.
+# Assume file.txt initially contains:
+
+# Apple
+# Banana
+# Exercise 1
+# echo "Cherry" > file.txt
+
+# What does file.txt contain now?
+
+# f.
+# Reset the file back to:
+
+# Apple
+# Banana
+
+# Then run:
+
+# echo "Cherry" >> file.txt
+
+# What does file.txt contain now?
+
+# g.
+# Assume combined.txt does NOT exist.
+
+# cat file.txt > combined.txt
+# cat file.txt >> combined.txt
+
+# What does combined.txt contain?
+
+# h.
+# You are building a simple bash logger:
+
+# echo "Server started" ___ server.log
+
+# You want to preserve previous logs.
+
+# Which operator goes in the blank?
+
+# i.
+# You accidentally run:
+
+# ls > important.txt
+
+# But important.txt had critical data.
+
+# What just happened?
 
 # 4. less
 # i. Why do we use "less"?
