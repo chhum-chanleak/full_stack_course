@@ -80,7 +80,7 @@
 
 # Apple
 # Banana
-# Exercise 1
+
 # echo "Cherry" > file.txt
 
 # What does file.txt contain now?
