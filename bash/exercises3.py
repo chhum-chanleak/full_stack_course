@@ -47,6 +47,8 @@
 # e. 
 # Task: Append "Hello, again" to file.md using "cat >>" and view file.md.
 
+# #lx0o
+
 # 3. > (overwrite) vs >> (append)
 # i. What does ">" do?
 # ii. What does ">>" do?
@@ -98,10 +100,13 @@
 # What does file.txt contain now?
 
 # g.
-# Assume combined.txt does NOT exist.
+# Assume combined.txt does NOT exist and you ran these commands:
 
-# cat file.txt > combined.txt
-# cat file.txt >> combined.txt
+# print "apple\nbanana\cherry" > file1.txt
+# print "red\ngreen\blue" > file2.txt
+
+# cat file1.txt > combined.txt
+# cat file2.txt >> combined.txt
 
 # What does combined.txt contain?
 
