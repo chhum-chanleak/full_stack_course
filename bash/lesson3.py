@@ -119,7 +119,7 @@
 
 # Core Concept
 
-# Operator Meaning	Behavior
+# Operator Meaning Behavior
 # >	Overwrite:	Creates a new file or replaces existing content
 # >>	Append: Adds content to the end of an existing file; creates it if it doesn’t exist
 
@@ -163,6 +163,11 @@
 # dirlist.txt now has old list + new listing
 
 # Example 4) cat → combine files
+
+# Do these first:
+
+# print "apple\nbanana\cherry" > file1.txt
+# print "red\ngreen\blue" > file2.txt
 
 # Overwrite
 # cat file1.txt > combined.txt
