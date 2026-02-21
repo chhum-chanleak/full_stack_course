@@ -83,3 +83,57 @@
 
 # d.
 # Task: Create a directory called bash-practice inside your home folder.
+
+# 8. Cursor Movement (No Selection)
+
+# Part A — Fill in the Shortcut
+
+# *Linux
+
+# Move one word left → 
+
+# Move to document end → 
+
+# Move to line start → 
+
+# Move one word right → 
+
+# Move to document start → 
+
+# *macOS
+
+# Move one word left → 
+
+# Move to line end → 
+
+# Move to document start → 
+
+# Move one word right → 
+
+# Move to line start → 
+
+# *Windows
+
+# Move one word right → 
+
+# Move to document start → 
+
+# Move one word left → 
+
+# Move to line end → 
+
+# Move to document end → 
+
+# Part B — OS Identification
+
+# Write Linux / macOS / Windows.
+
+# Uses Option + Arrow for word movement → 
+
+# Uses Ctrl + Arrow for word movement → 
+
+# Uses Command + Up Arrow to jump to document start → 
+
+# Uses Ctrl + Home to go to document start → 
+
+# Uses Command + Left Arrow to go to line start → 
