@@ -16,11 +16,11 @@
 # Goal: Use pwd to verify directory changes.
 
 # c.
-# Create and enter a folder:
+# Create and enter a folder named new_chapter:
 # Goal: See how pwd reflects relative movement.
 
 # d.
-# Create nested folders a/b/c
+# Create a nested folder a/b/c
 # Move, then print when inside each directory.
 # Goal: Understand full paths in nested directories.
 
@@ -82,7 +82,7 @@
 # Task: Create a directory structure src/components/buttons, even if src does not exist yet.
 
 # d.
-# Task: Create a directory called bash-practice inside your home folder.
+# Task: Create a directory called bash_practice inside your home folder.
 
 # 8. Cursor Movement (No Selection)
 
