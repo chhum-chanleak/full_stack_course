@@ -3,16 +3,29 @@
 # ii. Why do we use it?
 
 # a.
-# Task: You have a file named draft.txt. Rename it to final.txt.
+# Task: 
+# Create a file named draft.txt and write "Hello, draft" inside it.
+# Rename it to final.txt.
+# View content of final.txt
 
 # b.
-# Task: Move report.pdf into the existing directory docs/.
+# Task:
+# Create a file called report.pdf and write "Hello, report" inside it.
+# Move report.pdf into the existing directory docs/.
+# View content of docs/report.pdf.
 
 # c.
-# Task: Rename the directory images to assets.
+# Task:
+# Create a directory called images and create a file called file1.txt inside it.
+# Rename the directory images to assets.
+# View assets.
 
 # d.
-# Task: Move a.txt, b.txt, and c.txt into the directory archive/.
+# Task:
+# Create a directory named archive.
+# Create three files, a.txt, b.txt, and c.txt.
+# Move a.txt, b.txt, and c.txt into the directory archive/.
+# View archive.
 
 # 2. cat
 # i. What does "cat" stand for?
@@ -45,7 +58,9 @@
 # Task: Create file.md using "cat >"" then write "Hello, world!" in it (Press Ctrl + D two times to save) and view file.md.
 
 # e. 
-# Task: Append "Hello, again" to file.md using "cat >>" and view file.md.
+# Task:
+# Create file.md.
+# Append "Hello, again" to file.md using "cat >>" and view file.md.
 
 # #lx0o
 
@@ -54,6 +69,7 @@
 # ii. What does ">>" do?
 
 # a.
+# Assume:
 # What happens if notes.txt already exists and you run:
 
 # echo "Hello" > notes.txt
@@ -63,6 +79,7 @@
 # C) Command fails
 
 # b.
+# Imagine:
 # What happens if log.txt does NOT exist and you run:
 
 # date >> log.txt
@@ -72,13 +89,16 @@
 # C) Nothing happens
 
 # c.
+# Say:
 # You want to keep a running history of timestamps. Which operator should you use?
 
 # d.
+# Suppose:
 # You want to reset a file and start fresh. Which operator?
 
 # e.
-# Assume file.txt initially contains:
+# Assume:
+# file.txt initially contains:
 
 # Apple
 # Banana
@@ -88,7 +108,8 @@
 # What does file.txt contain now?
 
 # f.
-# Reset the file back to:
+# Imagine:
+# file.txt initially contains:
 
 # Apple
 # Banana
@@ -100,7 +121,7 @@
 # What does file.txt contain now?
 
 # g.
-# Assume combined.txt does NOT exist and you ran these commands:
+# Say combined.txt does NOT exist and you ran these commands:
 
 # print "apple\nbanana\cherry" > file1.txt
 # print "red\ngreen\blue" > file2.txt
@@ -131,7 +152,10 @@
 # 4. less
 # i. Why do we use "less"?
 
+# *Note: You may or may NOT need files from the directory named examples.
+
 # a.
+# Assume:
 # You have a very large file called server.log.
 # You want to read it safely and scroll up and down.
 
@@ -139,22 +163,25 @@
 # Which command should you use?
 
 # b.
+# Imagine:
 # A teammate says:
 
-# “The issue is around line 120 in config.txt.”
+# “The issue is around line 17 in config.txt.”
 
 # Question:
 # Which command opens the file directly at that line?
 
 # c.
-# You opened app.log using less.
+# Say:
+# You opened server.log using less.
 # You want to find the word error.
 
 # Question:
 # What exact keys do you press inside less?
 
 # d.
-# You want to read documentation for the "ls" command.
+# Suppose:
+# You want to read documentation for the ls command.
 
 # Question:
 # What command do you run, and what tool is used to display it?
@@ -163,15 +190,15 @@
 # i. Why do we use "echo"?
 
 # a.
-# Print the text Hello, World! to the terminal.
+# Print the text "Hello, World!"" to the terminal.
 
 # b.
-# Print Loading... without moving to the next line.
+# Print "Loading..." without moving to the next line.
 
 # c.
-# Assign your name to a variable NAME and then print Hello, <NAME>! using echo.
+# Assign your name to a variable NAME and then print "Hello, <NAME>!"" using echo.
 
 # d.
-# Print the following exactly as shown (including quotes):
+# Print the following exactly as shown (including quotes) to the terminal:
 
 # He said, "Bash is fun!"
