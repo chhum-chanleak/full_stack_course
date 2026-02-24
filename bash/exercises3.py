@@ -11,6 +11,7 @@
 # b.
 # Task:
 # Create a file called report.pdf and write "Hello, report" inside it.
+# Create a folder named docs.
 # Move report.pdf into the existing directory docs/.
 # View content of docs/report.pdf.
 
