@@ -191,22 +191,20 @@
 # ii. When does || run the next command in Bash?
 
 # a.
-
 # *Do the following but do not press Enter or run.
 
 # Create a directory called test_dir. If it succeeds, print:
 
-# Directory created!
+# "Directory created!"
 
 # Which operator should you use?
 
 # b.
-
 # Create a directory call existing_dir
 
 # Try to create it again (do not press Enter or run). If creation fails, print:
 
-# Directory already exists!
+# "Directory already exists!"
 
 # Which operator should you use?
 
@@ -217,14 +215,13 @@
 
 # Create project_dir
 
-# If creation succeeds, print Created!
+# If creation succeeds, print "Created!"
 
-# If creation fails, print Failed!
+# If creation fails, print "Failed!"
 
 # Write the one-line command.
 
 # d.
-
 # Create a file data.txt.
 
 # *Do the following but do not press Enter or run.
