@@ -144,15 +144,14 @@
 
 # *.txt
 
-# 4. Exit code (return value)
-
+# 4. Exit codes(return value)
 # i. What are exit codes?
 # ii. Why exit codes matter?
 
 # a.
 # You run this command:
 
-# mkdir my_folder
+# mkdir myfolder
 
 # How can you check whether it succeeded or failed immediately after running it?
 
@@ -167,9 +166,9 @@
 # ls existing_file.txt
 # echo $?
 
-# What will $? print if the file exists?
-
 # What if the file does not exist?
+
+# What will $? print if the file exists?
 
 # c.
 # You want to run a command only if the previous command succeeded. Which operator would you use?
@@ -179,7 +178,6 @@
 # Fill in ??? to achieve this behavior.
 
 # d.
-
 # Assume you run a script that returns a non-zero exit code. You want to print:
 
 # "Script failed!"
